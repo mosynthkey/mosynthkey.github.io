@@ -8,7 +8,13 @@
         sm="6"
         md="4"
       >
-        <v-card class="mx-auto" hover :to="`/products/${product.id}`">
+        <v-card 
+          class="mx-auto" 
+          hover 
+          :href="product.website" 
+          :target="product.website ? '_blank' : undefined"
+          :to="product.website ? undefined : `/products/${product.id}`"
+        >
           <v-img
             :src="product.screenshot"
             height="200px"
@@ -43,7 +49,7 @@
               App Store
             </v-btn>
              <v-spacer></v-spacer>
-            <v-btn append-icon="mdi-arrow-right">Details</v-btn>
+            <v-btn v-if="!product.website" append-icon="mdi-arrow-right">Details</v-btn>
           </v-card-actions>
         </v-card>
       </v-col>

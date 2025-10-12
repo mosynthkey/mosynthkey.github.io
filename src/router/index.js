@@ -8,9 +8,13 @@ export const routes = [
     component: HomeView
   },
   {
+    path: '/products/wavy',
+    name: 'wavy-product',
+    component: () => import('../views/WavyProductView.vue')
+  },
+  {
     path: '/products/:id',
     name: 'product',
-    // Lazy load the product view for better performance
     component: () => import('../views/ProductView.vue')
   }
 ]

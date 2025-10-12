@@ -21,7 +21,7 @@ import { computed } from 'vue'
 import { useRoute } from 'vue-router'
 
 const route = useRoute()
-const isProductPage = computed(() => route.name === 'product')
+const isProductPage = computed(() => route.name === 'product' || route.name === 'wavy-product')
 </script>
 
 <style>
