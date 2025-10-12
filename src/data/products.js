@@ -24,22 +24,25 @@ export const products = [
   },
   {
     id: 'volcafm2-utility',
-    name: 'volca fm2 utility',
-    description: 'A utility for the Korg volca fm2 synthesizer.',
+    name: 'KORG volca fm2 utility',
+    description: 'Receive programs from KORG volca fm2 and save as DX7 SysEx',
+    website: 'https://mosynthkey.github.io/volcafm2-dx7/',
     github: 'https://github.com/mosynthkey/volcafm2-dx7',
     screenshot: volcaFm2UtilityScreenshot
   },
   {
     id: 'modx-liveset-utility',
-    name: 'MODX Liveset Utility',
+    name: 'YAMAHA MODX Liveset Utility',
     description: 'A utility for the Yamaha MODX synthesizer.',
+    website: 'https://mosynthkey.github.io/MODX_Liveset_Utility/',
     github: 'https://github.com/mosynthkey/MODX_Liveset_Utility',
     screenshot: modxLivesetUtilityScreenshot
   },
   {
     id: 'fa-studioset-editor',
     name: 'Roland FA Studio Set Editor',
-    description: 'An editor for Roland FA series keyboards.',
+    description: 'A Studio Set Editor for Roland FA synthesizers.',
+    website: 'https://mosynthkey.github.io/FA-StudioSetEditor/index.html',
     github: 'https://github.com/mosynthkey/FA-StudioSetEditor',
     screenshot: faStudioSetEditorScreenshot
   }
