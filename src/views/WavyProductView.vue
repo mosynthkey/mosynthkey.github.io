@@ -1,5 +1,4 @@
 <template>
-    <meta name="google-site-verification" content="HJ3w1fFgyDekXmAwwBB7muiIvzTSVU4AvaoGU6_7eOM" />
     <div v-if="product">
         <v-app-bar color="primary" prominent>
             <v-btn icon to="/">
@@ -206,6 +205,7 @@ const pageImage = computed(() => {
 useHead({
   title: pageTitle,
   meta: [
+    { name: 'google-site-verification', content: 'HJ3w1fFgyDekXmAwwBB7muiIvzTSVU4AvaoGU6_7eOM' },
     { name: 'description', content: pageDescription },
     { name: 'keywords', content: 'ミュージックビデオ作成,オーディオスペクトラム,オーディオビジュアライザー,音楽動画作成,ミュージックビデオ,波形動画,iOS,アプリ,Wavy,スペクトラム,波形描画' },
     { property: 'og:title', content: pageTitle },

@@ -1,7 +1,7 @@
 {
   "\u0000plugin-vue:export-helper": [
-    "/assets/WavyProductView-DRuNhyPk.js",
-    "/assets/WavyProductView-CJ31J9Wd.css",
+    "/assets/WavyProductView-BW2EPokN.js",
+    "/assets/WavyProductView-ChHwZcAs.css",
     "/assets/musician.png-CmFRDxDZ.png",
     "/assets/podcast.png-BI-VdIkv.png",
     "/assets/1_select-CGH3yWQl.png",
@@ -244,15 +244,15 @@
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
   "node_modules/vuetify/lib/components/VAlert/VAlert.css": [
-    "/assets/VAlert-BRev96VF.js",
+    "/assets/VAlert-B4E4jkdV.js",
     "/assets/VAlert-BDbtqfCV.css"
   ],
   "node_modules/vuetify/lib/components/VAlert/VAlert.js": [
-    "/assets/VAlert-BRev96VF.js",
+    "/assets/VAlert-B4E4jkdV.js",
     "/assets/VAlert-BDbtqfCV.css"
   ],
   "node_modules/vuetify/lib/components/VAlert/VAlertTitle.js": [
-    "/assets/VAlert-BRev96VF.js",
+    "/assets/VAlert-B4E4jkdV.js",
     "/assets/VAlert-BDbtqfCV.css"
   ],
   "node_modules/vuetify/lib/components/VApp/VApp.css": [
@@ -905,7 +905,7 @@
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
   "node_modules/vuetify/lib/composables/iconSizes.js": [
-    "/assets/VAlert-BRev96VF.js",
+    "/assets/VAlert-B4E4jkdV.js",
     "/assets/VAlert-BDbtqfCV.css"
   ],
   "node_modules/vuetify/lib/composables/icons.js": [
@@ -1404,8 +1404,8 @@
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
   "src/assets/images/Wavy/1_select.png": [
-    "/assets/WavyProductView-DRuNhyPk.js",
-    "/assets/WavyProductView-CJ31J9Wd.css",
+    "/assets/WavyProductView-BW2EPokN.js",
+    "/assets/WavyProductView-ChHwZcAs.css",
     "/assets/musician.png-CmFRDxDZ.png",
     "/assets/podcast.png-BI-VdIkv.png",
     "/assets/1_select-CGH3yWQl.png",
@@ -1417,8 +1417,8 @@
     "/assets/6_font-DuykuxW8.png"
   ],
   "src/assets/images/Wavy/2_layout.png": [
-    "/assets/WavyProductView-DRuNhyPk.js",
-    "/assets/WavyProductView-CJ31J9Wd.css",
+    "/assets/WavyProductView-BW2EPokN.js",
+    "/assets/WavyProductView-ChHwZcAs.css",
     "/assets/musician.png-CmFRDxDZ.png",
     "/assets/podcast.png-BI-VdIkv.png",
     "/assets/1_select-CGH3yWQl.png",
@@ -1430,8 +1430,8 @@
     "/assets/6_font-DuykuxW8.png"
   ],
   "src/assets/images/Wavy/3_background.png": [
-    "/assets/WavyProductView-DRuNhyPk.js",
-    "/assets/WavyProductView-CJ31J9Wd.css",
+    "/assets/WavyProductView-BW2EPokN.js",
+    "/assets/WavyProductView-ChHwZcAs.css",
     "/assets/musician.png-CmFRDxDZ.png",
     "/assets/podcast.png-BI-VdIkv.png",
     "/assets/1_select-CGH3yWQl.png",
@@ -1443,8 +1443,8 @@
     "/assets/6_font-DuykuxW8.png"
   ],
   "src/assets/images/Wavy/4_waveform.png": [
-    "/assets/WavyProductView-DRuNhyPk.js",
-    "/assets/WavyProductView-CJ31J9Wd.css",
+    "/assets/WavyProductView-BW2EPokN.js",
+    "/assets/WavyProductView-ChHwZcAs.css",
     "/assets/musician.png-CmFRDxDZ.png",
     "/assets/podcast.png-BI-VdIkv.png",
     "/assets/1_select-CGH3yWQl.png",
@@ -1456,8 +1456,8 @@
     "/assets/6_font-DuykuxW8.png"
   ],
   "src/assets/images/Wavy/5_text.png": [
-    "/assets/WavyProductView-DRuNhyPk.js",
-    "/assets/WavyProductView-CJ31J9Wd.css",
+    "/assets/WavyProductView-BW2EPokN.js",
+    "/assets/WavyProductView-ChHwZcAs.css",
     "/assets/musician.png-CmFRDxDZ.png",
     "/assets/podcast.png-BI-VdIkv.png",
     "/assets/1_select-CGH3yWQl.png",
@@ -1469,8 +1469,8 @@
     "/assets/6_font-DuykuxW8.png"
   ],
   "src/assets/images/Wavy/5_text_album.png": [
-    "/assets/WavyProductView-DRuNhyPk.js",
-    "/assets/WavyProductView-CJ31J9Wd.css",
+    "/assets/WavyProductView-BW2EPokN.js",
+    "/assets/WavyProductView-ChHwZcAs.css",
     "/assets/musician.png-CmFRDxDZ.png",
     "/assets/podcast.png-BI-VdIkv.png",
     "/assets/1_select-CGH3yWQl.png",
@@ -1482,8 +1482,8 @@
     "/assets/6_font-DuykuxW8.png"
   ],
   "src/assets/images/Wavy/6_font.png": [
-    "/assets/WavyProductView-DRuNhyPk.js",
-    "/assets/WavyProductView-CJ31J9Wd.css",
+    "/assets/WavyProductView-BW2EPokN.js",
+    "/assets/WavyProductView-ChHwZcAs.css",
     "/assets/musician.png-CmFRDxDZ.png",
     "/assets/podcast.png-BI-VdIkv.png",
     "/assets/1_select-CGH3yWQl.png",
@@ -1495,8 +1495,8 @@
     "/assets/6_font-DuykuxW8.png"
   ],
   "src/assets/images/Wavy/musician.png.png": [
-    "/assets/WavyProductView-DRuNhyPk.js",
-    "/assets/WavyProductView-CJ31J9Wd.css",
+    "/assets/WavyProductView-BW2EPokN.js",
+    "/assets/WavyProductView-ChHwZcAs.css",
     "/assets/musician.png-CmFRDxDZ.png",
     "/assets/podcast.png-BI-VdIkv.png",
     "/assets/1_select-CGH3yWQl.png",
@@ -1508,8 +1508,8 @@
     "/assets/6_font-DuykuxW8.png"
   ],
   "src/assets/images/Wavy/podcast.png.png": [
-    "/assets/WavyProductView-DRuNhyPk.js",
-    "/assets/WavyProductView-CJ31J9Wd.css",
+    "/assets/WavyProductView-BW2EPokN.js",
+    "/assets/WavyProductView-ChHwZcAs.css",
     "/assets/musician.png-CmFRDxDZ.png",
     "/assets/podcast.png-BI-VdIkv.png",
     "/assets/1_select-CGH3yWQl.png",
@@ -1642,11 +1642,11 @@
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
   "src/views/ProductView.vue": [
-    "/assets/ProductView-B47E42Mg.js"
+    "/assets/ProductView-B-bJZ9cD.js"
   ],
   "src/views/WavyProductView.vue": [
-    "/assets/WavyProductView-DRuNhyPk.js",
-    "/assets/WavyProductView-CJ31J9Wd.css",
+    "/assets/WavyProductView-BW2EPokN.js",
+    "/assets/WavyProductView-ChHwZcAs.css",
     "/assets/musician.png-CmFRDxDZ.png",
     "/assets/podcast.png-BI-VdIkv.png",
     "/assets/1_select-CGH3yWQl.png",
@@ -1657,9 +1657,9 @@
     "/assets/5_text_album-C11-CFlN.png",
     "/assets/6_font-DuykuxW8.png"
   ],
-  "src/views/WavyProductView.vue?vue&type=style&index=0&scoped=d93963ad&lang.css": [
-    "/assets/WavyProductView-DRuNhyPk.js",
-    "/assets/WavyProductView-CJ31J9Wd.css",
+  "src/views/WavyProductView.vue?vue&type=style&index=0&scoped=a0792ff0&lang.css": [
+    "/assets/WavyProductView-BW2EPokN.js",
+    "/assets/WavyProductView-ChHwZcAs.css",
     "/assets/musician.png-CmFRDxDZ.png",
     "/assets/podcast.png-BI-VdIkv.png",
     "/assets/1_select-CGH3yWQl.png",
