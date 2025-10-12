@@ -8,12 +8,13 @@
         sm="6"
         md="4"
       >
-        <v-card 
-          class="mx-auto" 
-          hover 
-          :href="product.website" 
+        <v-card
+          class="mx-auto d-flex flex-column"
+          hover
+          :href="product.website"
           :target="product.website ? '_blank' : undefined"
           :to="product.website ? undefined : `/products/${product.id}`"
+          height="380"
         >
           <v-img
             :src="product.screenshot"
@@ -22,22 +23,22 @@
           ></v-img>
 
           <v-card-title>
-            {{ product.name }}
+            {{ getProductName(product.id) }}
           </v-card-title>
 
-          <v-card-subtitle class="pb-4">
-            {{ product.description }}
-          </v-card-subtitle>
+          <v-card-text class="pb-4 flex-grow-1">
+            {{ getProductDescription(product.id) }}
+          </v-card-text>
 
-          <v-card-actions>
+          <v-card-actions class="mt-auto">
             <v-btn
               v-if="product.github"
               :href="product.github"
               target="_blank"
               @click.stop
-              prepend-icon="mdi-github"
+              icon="mdi-github"
+              variant="text"
             >
-              View on GitHub
             </v-btn>
             <v-btn
               v-if="product.appStore"
@@ -46,10 +47,10 @@
               @click.stop
               prepend-icon="mdi-apple"
             >
-              App Store
+              {{ t('home.appStore') }}
             </v-btn>
              <v-spacer></v-spacer>
-            <v-btn v-if="!product.website" append-icon="mdi-arrow-right">Details</v-btn>
+            <v-btn v-if="!product.website" append-icon="mdi-arrow-right">{{ t('common.details') }}</v-btn>
           </v-card-actions>
         </v-card>
       </v-col>
@@ -58,5 +59,29 @@
 </template>
 
 <script setup>
-import { products } from '@/data/products.js';
+import { useI18n } from 'vue-i18n'
+import { products } from '@/data/products.js'
+
+const { t } = useI18n()
+
+// Helper functions to get translated product info
+const getProductName = (id) => {
+  // Convert kebab-case to camelCase for translation keys
+  // Special handling for fa-studioset-editor -> faStudioSetEditor
+  let key = id.replace(/-([a-z])/g, (g) => g[1].toUpperCase())
+  if (key === 'faStudiosetEditor') {
+    key = 'faStudioSetEditor'
+  }
+  return t(`products.${key}.name`)
+}
+
+const getProductDescription = (id) => {
+  // Convert kebab-case to camelCase for translation keys
+  // Special handling for fa-studioset-editor -> faStudioSetEditor
+  let key = id.replace(/-([a-z])/g, (g) => g[1].toUpperCase())
+  if (key === 'faStudiosetEditor') {
+    key = 'faStudioSetEditor'
+  }
+  return t(`products.${key}.description`)
+}
 </script>

@@ -1,16 +1,15 @@
 {
   "\u0000plugin-vue:export-helper": [
-    "/assets/WavyProductView-Cx0zPXjJ.js",
-    "/assets/WavyProductView-ChHwZcAs.css",
-    "/assets/musician.png-CmFRDxDZ.png",
-    "/assets/podcast.png-BI-VdIkv.png",
-    "/assets/1_select-CGH3yWQl.png",
-    "/assets/2_layout-CyjAHwbr.png",
-    "/assets/3_background-GowzQhJu.png",
-    "/assets/4_waveform-HXWN3V24.png",
-    "/assets/5_text-xYl9y2nQ.png",
-    "/assets/5_text_album-C11-CFlN.png",
-    "/assets/6_font-DuykuxW8.png"
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
   "\u0000vite/modulepreload-polyfill.js": [
     "/assets/melissa-D6w-eFlh.png",
@@ -37,6 +36,42 @@
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
   "index.html": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/@intlify/core-base/dist/core-base.mjs": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/@intlify/message-compiler/dist/message-compiler.esm-browser.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/@intlify/shared/dist/shared.mjs": [
     "/assets/melissa-D6w-eFlh.png",
     "/assets/fa-studioset-editor-DXP2Bsli.png",
     "/assets/volcafm2-utility-B-BMzrwq.png",
@@ -252,6 +287,18 @@
     "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
+  "node_modules/vue-i18n/dist/vue-i18n.mjs": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
   "node_modules/vue-router/dist/vue-router.mjs": [
     "/assets/melissa-D6w-eFlh.png",
     "/assets/fa-studioset-editor-DXP2Bsli.png",
@@ -265,15 +312,15 @@
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
   "node_modules/vuetify/lib/components/VAlert/VAlert.css": [
-    "/assets/VAlert-YSzVdVov.js",
+    "/assets/VAlert-BGrReOpp.js",
     "/assets/VAlert-BDbtqfCV.css"
   ],
   "node_modules/vuetify/lib/components/VAlert/VAlert.js": [
-    "/assets/VAlert-YSzVdVov.js",
+    "/assets/VAlert-BGrReOpp.js",
     "/assets/VAlert-BDbtqfCV.css"
   ],
   "node_modules/vuetify/lib/components/VAlert/VAlertTitle.js": [
-    "/assets/VAlert-YSzVdVov.js",
+    "/assets/VAlert-BGrReOpp.js",
     "/assets/VAlert-BDbtqfCV.css"
   ],
   "node_modules/vuetify/lib/components/VApp/VApp.css": [
@@ -516,7 +563,151 @@
     "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
+  "node_modules/vuetify/lib/components/VCheckbox/VCheckboxBtn.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VChip/VChip.css": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VChip/VChip.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VChipGroup/VChipGroup.css": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VChipGroup/VChipGroup.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VCounter/VCounter.css": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VCounter/VCounter.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
   "node_modules/vuetify/lib/components/VDefaultsProvider/VDefaultsProvider.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VDivider/VDivider.css": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VDivider/VDivider.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VField/VField.css": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VField/VField.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VField/VFieldLabel.js": [
     "/assets/melissa-D6w-eFlh.png",
     "/assets/fa-studioset-editor-DXP2Bsli.png",
     "/assets/volcafm2-utility-B-BMzrwq.png",
@@ -660,6 +851,186 @@
     "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
+  "node_modules/vuetify/lib/components/VInput/InputIcon.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VInput/VInput.css": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VInput/VInput.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VLabel/VLabel.css": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VLabel/VLabel.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VList/VList.css": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VList/VList.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VList/VListChildren.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VList/VListGroup.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VList/VListItem.css": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VList/VListItem.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VList/VListItemSubtitle.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VList/VListItemTitle.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VList/VListSubheader.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VList/list.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
   "node_modules/vuetify/lib/components/VMain/VMain.css": [
     "/assets/melissa-D6w-eFlh.png",
     "/assets/fa-studioset-editor-DXP2Bsli.png",
@@ -673,6 +1044,150 @@
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
   "node_modules/vuetify/lib/components/VMain/VMain.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VMenu/VMenu.css": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VMenu/VMenu.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VMenu/shared.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VMessages/VMessages.css": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VMessages/VMessages.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VOverlay/VOverlay.css": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VOverlay/VOverlay.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VOverlay/locationStrategies.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VOverlay/requestNewFrame.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VOverlay/scrollStrategies.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VOverlay/useActivator.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VOverlay/util/point.js": [
     "/assets/melissa-D6w-eFlh.png",
     "/assets/fa-studioset-editor-DXP2Bsli.png",
     "/assets/volcafm2-utility-B-BMzrwq.png",
@@ -768,6 +1283,150 @@
     "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
+  "node_modules/vuetify/lib/components/VSelect/VSelect.css": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VSelect/VSelect.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VSelect/useScrolling.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VSelectionControl/VSelectionControl.css": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VSelectionControl/VSelectionControl.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VSelectionControlGroup/VSelectionControlGroup.css": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VSelectionControlGroup/VSelectionControlGroup.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VSlideGroup/VSlideGroup.css": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VSlideGroup/VSlideGroup.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VSlideGroup/helpers.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VTextField/VTextField.css": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VTextField/VTextField.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
   "node_modules/vuetify/lib/components/VToolbar/VToolbar.css": [
     "/assets/melissa-D6w-eFlh.png",
     "/assets/fa-studioset-editor-DXP2Bsli.png",
@@ -804,7 +1463,55 @@
     "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
+  "node_modules/vuetify/lib/components/VVirtualScroll/VVirtualScroll.css": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VVirtualScroll/VVirtualScroll.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/VVirtualScroll/VVirtualScrollItem.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
   "node_modules/vuetify/lib/components/transitions/createTransition.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/components/transitions/dialog-transition.js": [
     "/assets/melissa-D6w-eFlh.png",
     "/assets/fa-studioset-editor-DXP2Bsli.png",
     "/assets/volcafm2-utility-B-BMzrwq.png",
@@ -829,6 +1536,30 @@
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
   "node_modules/vuetify/lib/components/transitions/index.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/composables/autocomplete.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/composables/autofocus.js": [
     "/assets/melissa-D6w-eFlh.png",
     "/assets/fa-studioset-editor-DXP2Bsli.png",
     "/assets/volcafm2-utility-B-BMzrwq.png",
@@ -912,6 +1643,18 @@
     "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
+  "node_modules/vuetify/lib/composables/delay.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
   "node_modules/vuetify/lib/composables/density.js": [
     "/assets/melissa-D6w-eFlh.png",
     "/assets/fa-studioset-editor-DXP2Bsli.png",
@@ -960,6 +1703,42 @@
     "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
+  "node_modules/vuetify/lib/composables/focus.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/composables/form.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/composables/forwardRefs.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
   "node_modules/vuetify/lib/composables/goto.js": [
     "/assets/melissa-D6w-eFlh.png",
     "/assets/fa-studioset-editor-DXP2Bsli.png",
@@ -984,8 +1763,20 @@
     "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
+  "node_modules/vuetify/lib/composables/hydration.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
   "node_modules/vuetify/lib/composables/iconSizes.js": [
-    "/assets/VAlert-YSzVdVov.js",
+    "/assets/VAlert-BGrReOpp.js",
     "/assets/VAlert-BDbtqfCV.css"
   ],
   "node_modules/vuetify/lib/composables/icons.js": [
@@ -1024,6 +1815,30 @@
     "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
+  "node_modules/vuetify/lib/composables/lazy.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/composables/list-items.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
   "node_modules/vuetify/lib/composables/loader.js": [
     "/assets/melissa-D6w-eFlh.png",
     "/assets/fa-studioset-editor-DXP2Bsli.png",
@@ -1049,6 +1864,66 @@
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
   "node_modules/vuetify/lib/composables/location.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/composables/menuActivator.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/composables/nested/activeStrategies.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/composables/nested/nested.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/composables/nested/openStrategies.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/composables/nested/selectStrategies.js": [
     "/assets/melissa-D6w-eFlh.png",
     "/assets/fa-studioset-editor-DXP2Bsli.png",
     "/assets/volcafm2-utility-B-BMzrwq.png",
@@ -1120,6 +1995,18 @@
     "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
+  "node_modules/vuetify/lib/composables/scopeId.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
   "node_modules/vuetify/lib/composables/scroll.js": [
     "/assets/melissa-D6w-eFlh.png",
     "/assets/fa-studioset-editor-DXP2Bsli.png",
@@ -1168,7 +2055,31 @@
     "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
+  "node_modules/vuetify/lib/composables/stack.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
   "node_modules/vuetify/lib/composables/tag.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/composables/teleport.js": [
     "/assets/melissa-D6w-eFlh.png",
     "/assets/fa-studioset-editor-DXP2Bsli.png",
     "/assets/volcafm2-utility-B-BMzrwq.png",
@@ -1216,7 +2127,43 @@
     "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
+  "node_modules/vuetify/lib/composables/validation.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
   "node_modules/vuetify/lib/composables/variant.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/composables/virtual.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/directives/click-outside/index.js": [
     "/assets/melissa-D6w-eFlh.png",
     "/assets/fa-studioset-editor-DXP2Bsli.png",
     "/assets/volcafm2-utility-B-BMzrwq.png",
@@ -1288,6 +2235,18 @@
     "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
+  "node_modules/vuetify/lib/labs/rules/rules.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
   "node_modules/vuetify/lib/locale/adapters/vuetify.js": [
     "/assets/melissa-D6w-eFlh.png",
     "/assets/fa-studioset-editor-DXP2Bsli.png",
@@ -1325,6 +2284,42 @@
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
   "node_modules/vuetify/lib/util/anchor.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/util/animation.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/util/bindProps.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/util/box.js": [
     "/assets/melissa-D6w-eFlh.png",
     "/assets/fa-studioset-editor-DXP2Bsli.png",
     "/assets/volcafm2-utility-B-BMzrwq.png",
@@ -1420,6 +2415,18 @@
     "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
+  "node_modules/vuetify/lib/util/dom.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
   "node_modules/vuetify/lib/util/easing.js": [
     "/assets/melissa-D6w-eFlh.png",
     "/assets/fa-studioset-editor-DXP2Bsli.png",
@@ -1433,6 +2440,18 @@
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
   "node_modules/vuetify/lib/util/getCurrentInstance.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/util/getScrollParent.js": [
     "/assets/melissa-D6w-eFlh.png",
     "/assets/fa-studioset-editor-DXP2Bsli.png",
     "/assets/volcafm2-utility-B-BMzrwq.png",
@@ -1469,6 +2488,18 @@
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
   "node_modules/vuetify/lib/util/injectSelf.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "node_modules/vuetify/lib/util/isFixedPosition.js": [
     "/assets/melissa-D6w-eFlh.png",
     "/assets/fa-studioset-editor-DXP2Bsli.png",
     "/assets/volcafm2-utility-B-BMzrwq.png",
@@ -1529,10 +2560,10 @@
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
   "src/assets/images/Wavy/1_select.png": [
-    "/assets/WavyProductView-Cx0zPXjJ.js",
-    "/assets/WavyProductView-ChHwZcAs.css",
-    "/assets/musician.png-CmFRDxDZ.png",
-    "/assets/podcast.png-BI-VdIkv.png",
+    "/assets/WavyProductView-BfQGnbwY.js",
+    "/assets/WavyProductView-BrO5Ria_.css",
+    "/assets/musician-CmFRDxDZ.png",
+    "/assets/podcast-BI-VdIkv.png",
     "/assets/1_select-CGH3yWQl.png",
     "/assets/2_layout-CyjAHwbr.png",
     "/assets/3_background-GowzQhJu.png",
@@ -1542,10 +2573,10 @@
     "/assets/6_font-DuykuxW8.png"
   ],
   "src/assets/images/Wavy/2_layout.png": [
-    "/assets/WavyProductView-Cx0zPXjJ.js",
-    "/assets/WavyProductView-ChHwZcAs.css",
-    "/assets/musician.png-CmFRDxDZ.png",
-    "/assets/podcast.png-BI-VdIkv.png",
+    "/assets/WavyProductView-BfQGnbwY.js",
+    "/assets/WavyProductView-BrO5Ria_.css",
+    "/assets/musician-CmFRDxDZ.png",
+    "/assets/podcast-BI-VdIkv.png",
     "/assets/1_select-CGH3yWQl.png",
     "/assets/2_layout-CyjAHwbr.png",
     "/assets/3_background-GowzQhJu.png",
@@ -1555,10 +2586,10 @@
     "/assets/6_font-DuykuxW8.png"
   ],
   "src/assets/images/Wavy/3_background.png": [
-    "/assets/WavyProductView-Cx0zPXjJ.js",
-    "/assets/WavyProductView-ChHwZcAs.css",
-    "/assets/musician.png-CmFRDxDZ.png",
-    "/assets/podcast.png-BI-VdIkv.png",
+    "/assets/WavyProductView-BfQGnbwY.js",
+    "/assets/WavyProductView-BrO5Ria_.css",
+    "/assets/musician-CmFRDxDZ.png",
+    "/assets/podcast-BI-VdIkv.png",
     "/assets/1_select-CGH3yWQl.png",
     "/assets/2_layout-CyjAHwbr.png",
     "/assets/3_background-GowzQhJu.png",
@@ -1568,10 +2599,10 @@
     "/assets/6_font-DuykuxW8.png"
   ],
   "src/assets/images/Wavy/4_waveform.png": [
-    "/assets/WavyProductView-Cx0zPXjJ.js",
-    "/assets/WavyProductView-ChHwZcAs.css",
-    "/assets/musician.png-CmFRDxDZ.png",
-    "/assets/podcast.png-BI-VdIkv.png",
+    "/assets/WavyProductView-BfQGnbwY.js",
+    "/assets/WavyProductView-BrO5Ria_.css",
+    "/assets/musician-CmFRDxDZ.png",
+    "/assets/podcast-BI-VdIkv.png",
     "/assets/1_select-CGH3yWQl.png",
     "/assets/2_layout-CyjAHwbr.png",
     "/assets/3_background-GowzQhJu.png",
@@ -1581,10 +2612,10 @@
     "/assets/6_font-DuykuxW8.png"
   ],
   "src/assets/images/Wavy/5_text.png": [
-    "/assets/WavyProductView-Cx0zPXjJ.js",
-    "/assets/WavyProductView-ChHwZcAs.css",
-    "/assets/musician.png-CmFRDxDZ.png",
-    "/assets/podcast.png-BI-VdIkv.png",
+    "/assets/WavyProductView-BfQGnbwY.js",
+    "/assets/WavyProductView-BrO5Ria_.css",
+    "/assets/musician-CmFRDxDZ.png",
+    "/assets/podcast-BI-VdIkv.png",
     "/assets/1_select-CGH3yWQl.png",
     "/assets/2_layout-CyjAHwbr.png",
     "/assets/3_background-GowzQhJu.png",
@@ -1594,10 +2625,10 @@
     "/assets/6_font-DuykuxW8.png"
   ],
   "src/assets/images/Wavy/5_text_album.png": [
-    "/assets/WavyProductView-Cx0zPXjJ.js",
-    "/assets/WavyProductView-ChHwZcAs.css",
-    "/assets/musician.png-CmFRDxDZ.png",
-    "/assets/podcast.png-BI-VdIkv.png",
+    "/assets/WavyProductView-BfQGnbwY.js",
+    "/assets/WavyProductView-BrO5Ria_.css",
+    "/assets/musician-CmFRDxDZ.png",
+    "/assets/podcast-BI-VdIkv.png",
     "/assets/1_select-CGH3yWQl.png",
     "/assets/2_layout-CyjAHwbr.png",
     "/assets/3_background-GowzQhJu.png",
@@ -1607,10 +2638,10 @@
     "/assets/6_font-DuykuxW8.png"
   ],
   "src/assets/images/Wavy/6_font.png": [
-    "/assets/WavyProductView-Cx0zPXjJ.js",
-    "/assets/WavyProductView-ChHwZcAs.css",
-    "/assets/musician.png-CmFRDxDZ.png",
-    "/assets/podcast.png-BI-VdIkv.png",
+    "/assets/WavyProductView-BfQGnbwY.js",
+    "/assets/WavyProductView-BrO5Ria_.css",
+    "/assets/musician-CmFRDxDZ.png",
+    "/assets/podcast-BI-VdIkv.png",
     "/assets/1_select-CGH3yWQl.png",
     "/assets/2_layout-CyjAHwbr.png",
     "/assets/3_background-GowzQhJu.png",
@@ -1619,11 +2650,11 @@
     "/assets/5_text_album-C11-CFlN.png",
     "/assets/6_font-DuykuxW8.png"
   ],
-  "src/assets/images/Wavy/musician.png.png": [
-    "/assets/WavyProductView-Cx0zPXjJ.js",
-    "/assets/WavyProductView-ChHwZcAs.css",
-    "/assets/musician.png-CmFRDxDZ.png",
-    "/assets/podcast.png-BI-VdIkv.png",
+  "src/assets/images/Wavy/musician.png": [
+    "/assets/WavyProductView-BfQGnbwY.js",
+    "/assets/WavyProductView-BrO5Ria_.css",
+    "/assets/musician-CmFRDxDZ.png",
+    "/assets/podcast-BI-VdIkv.png",
     "/assets/1_select-CGH3yWQl.png",
     "/assets/2_layout-CyjAHwbr.png",
     "/assets/3_background-GowzQhJu.png",
@@ -1632,11 +2663,11 @@
     "/assets/5_text_album-C11-CFlN.png",
     "/assets/6_font-DuykuxW8.png"
   ],
-  "src/assets/images/Wavy/podcast.png.png": [
-    "/assets/WavyProductView-Cx0zPXjJ.js",
-    "/assets/WavyProductView-ChHwZcAs.css",
-    "/assets/musician.png-CmFRDxDZ.png",
-    "/assets/podcast.png-BI-VdIkv.png",
+  "src/assets/images/Wavy/podcast.png": [
+    "/assets/WavyProductView-BfQGnbwY.js",
+    "/assets/WavyProductView-BrO5Ria_.css",
+    "/assets/musician-CmFRDxDZ.png",
+    "/assets/podcast-BI-VdIkv.png",
     "/assets/1_select-CGH3yWQl.png",
     "/assets/2_layout-CyjAHwbr.png",
     "/assets/3_background-GowzQhJu.png",
@@ -1717,6 +2748,30 @@
     "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
+  "src/components/SocialShare.vue": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "src/components/SocialShare.vue?vue&type=style&index=0&scoped=05bf1bc2&lang.css": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
   "src/data/products.js": [
     "/assets/melissa-D6w-eFlh.png",
     "/assets/fa-studioset-editor-DXP2Bsli.png",
@@ -1729,7 +2784,43 @@
     "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
+  "src/locales/en.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "src/locales/ja.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
   "src/main.js": [
+    "/assets/melissa-D6w-eFlh.png",
+    "/assets/fa-studioset-editor-DXP2Bsli.png",
+    "/assets/volcafm2-utility-B-BMzrwq.png",
+    "/assets/modx-liveset-utility-B3uk2URv.png",
+    "/assets/wavy-CQIs2F1M.png",
+    "/assets/wavy_top-_xomBmeH.png",
+    "/assets/materialdesignicons-webfont-CSr8KVlo.eot",
+    "/assets/materialdesignicons-webfont-Dp5v-WZN.woff2",
+    "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
+    "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
+  ],
+  "src/plugins/i18n.js": [
     "/assets/melissa-D6w-eFlh.png",
     "/assets/fa-studioset-editor-DXP2Bsli.png",
     "/assets/volcafm2-utility-B-BMzrwq.png",
@@ -1778,13 +2869,13 @@
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
   "src/views/ProductView.vue": [
-    "/assets/ProductView-D9WfmqBQ.js"
+    "/assets/ProductView-BOQzU6zJ.js"
   ],
   "src/views/WavyProductView.vue": [
-    "/assets/WavyProductView-Cx0zPXjJ.js",
-    "/assets/WavyProductView-ChHwZcAs.css",
-    "/assets/musician.png-CmFRDxDZ.png",
-    "/assets/podcast.png-BI-VdIkv.png",
+    "/assets/WavyProductView-BfQGnbwY.js",
+    "/assets/WavyProductView-BrO5Ria_.css",
+    "/assets/musician-CmFRDxDZ.png",
+    "/assets/podcast-BI-VdIkv.png",
     "/assets/1_select-CGH3yWQl.png",
     "/assets/2_layout-CyjAHwbr.png",
     "/assets/3_background-GowzQhJu.png",
@@ -1793,11 +2884,11 @@
     "/assets/5_text_album-C11-CFlN.png",
     "/assets/6_font-DuykuxW8.png"
   ],
-  "src/views/WavyProductView.vue?vue&type=style&index=0&scoped=a0792ff0&lang.css": [
-    "/assets/WavyProductView-Cx0zPXjJ.js",
-    "/assets/WavyProductView-ChHwZcAs.css",
-    "/assets/musician.png-CmFRDxDZ.png",
-    "/assets/podcast.png-BI-VdIkv.png",
+  "src/views/WavyProductView.vue?vue&type=style&index=0&scoped=d46be1db&lang.css": [
+    "/assets/WavyProductView-BfQGnbwY.js",
+    "/assets/WavyProductView-BrO5Ria_.css",
+    "/assets/musician-CmFRDxDZ.png",
+    "/assets/podcast-BI-VdIkv.png",
     "/assets/1_select-CGH3yWQl.png",
     "/assets/2_layout-CyjAHwbr.png",
     "/assets/3_background-GowzQhJu.png",

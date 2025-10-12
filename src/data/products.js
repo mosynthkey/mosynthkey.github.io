@@ -17,7 +17,7 @@ export const products = [
   {
     id: 'melissa',
     name: 'Melissa',
-    description: 'A music player for musical instrument practice, for macOS and Windows',
+    description: 'A music player for musical instrument practice',
     website: 'https://mosynthkey.github.io/Melissa/',
     github: 'https://github.com/mosynthkey/Melissa',
     screenshot: melissaScreenshot
