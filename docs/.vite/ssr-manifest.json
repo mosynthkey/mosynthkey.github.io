@@ -1,7 +1,16 @@
 {
   "\u0000plugin-vue:export-helper": [
-    "/assets/ProductView-DBi1vGD7.js",
-    "/assets/ProductView-Dij5Md3S.css"
+    "/assets/ProductView-ChZ5hrOY.js",
+    "/assets/ProductView-DfYO9MVG.css",
+    "/assets/musician.png-CmFRDxDZ.png",
+    "/assets/podcast.png-BI-VdIkv.png",
+    "/assets/1_select-CGH3yWQl.png",
+    "/assets/2_layout-CyjAHwbr.png",
+    "/assets/3_background-GowzQhJu.png",
+    "/assets/4_waveform-HXWN3V24.png",
+    "/assets/5_text-xYl9y2nQ.png",
+    "/assets/5_text_album-C11-CFlN.png",
+    "/assets/6_font-DuykuxW8.png"
   ],
   "\u0000vite/modulepreload-polyfill.js": [
     "/assets/melissa-D0NFkL1J.png",
@@ -235,16 +244,43 @@
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
   "node_modules/vuetify/lib/components/VAlert/VAlert.css": [
-    "/assets/ProductView-DBi1vGD7.js",
-    "/assets/ProductView-Dij5Md3S.css"
+    "/assets/ProductView-ChZ5hrOY.js",
+    "/assets/ProductView-DfYO9MVG.css",
+    "/assets/musician.png-CmFRDxDZ.png",
+    "/assets/podcast.png-BI-VdIkv.png",
+    "/assets/1_select-CGH3yWQl.png",
+    "/assets/2_layout-CyjAHwbr.png",
+    "/assets/3_background-GowzQhJu.png",
+    "/assets/4_waveform-HXWN3V24.png",
+    "/assets/5_text-xYl9y2nQ.png",
+    "/assets/5_text_album-C11-CFlN.png",
+    "/assets/6_font-DuykuxW8.png"
   ],
   "node_modules/vuetify/lib/components/VAlert/VAlert.js": [
-    "/assets/ProductView-DBi1vGD7.js",
-    "/assets/ProductView-Dij5Md3S.css"
+    "/assets/ProductView-ChZ5hrOY.js",
+    "/assets/ProductView-DfYO9MVG.css",
+    "/assets/musician.png-CmFRDxDZ.png",
+    "/assets/podcast.png-BI-VdIkv.png",
+    "/assets/1_select-CGH3yWQl.png",
+    "/assets/2_layout-CyjAHwbr.png",
+    "/assets/3_background-GowzQhJu.png",
+    "/assets/4_waveform-HXWN3V24.png",
+    "/assets/5_text-xYl9y2nQ.png",
+    "/assets/5_text_album-C11-CFlN.png",
+    "/assets/6_font-DuykuxW8.png"
   ],
   "node_modules/vuetify/lib/components/VAlert/VAlertTitle.js": [
-    "/assets/ProductView-DBi1vGD7.js",
-    "/assets/ProductView-Dij5Md3S.css"
+    "/assets/ProductView-ChZ5hrOY.js",
+    "/assets/ProductView-DfYO9MVG.css",
+    "/assets/musician.png-CmFRDxDZ.png",
+    "/assets/podcast.png-BI-VdIkv.png",
+    "/assets/1_select-CGH3yWQl.png",
+    "/assets/2_layout-CyjAHwbr.png",
+    "/assets/3_background-GowzQhJu.png",
+    "/assets/4_waveform-HXWN3V24.png",
+    "/assets/5_text-xYl9y2nQ.png",
+    "/assets/5_text_album-C11-CFlN.png",
+    "/assets/6_font-DuykuxW8.png"
   ],
   "node_modules/vuetify/lib/components/VApp/VApp.css": [
     "/assets/melissa-D0NFkL1J.png",
@@ -896,8 +932,17 @@
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
   "node_modules/vuetify/lib/composables/iconSizes.js": [
-    "/assets/ProductView-DBi1vGD7.js",
-    "/assets/ProductView-Dij5Md3S.css"
+    "/assets/ProductView-ChZ5hrOY.js",
+    "/assets/ProductView-DfYO9MVG.css",
+    "/assets/musician.png-CmFRDxDZ.png",
+    "/assets/podcast.png-BI-VdIkv.png",
+    "/assets/1_select-CGH3yWQl.png",
+    "/assets/2_layout-CyjAHwbr.png",
+    "/assets/3_background-GowzQhJu.png",
+    "/assets/4_waveform-HXWN3V24.png",
+    "/assets/5_text-xYl9y2nQ.png",
+    "/assets/5_text_album-C11-CFlN.png",
+    "/assets/6_font-DuykuxW8.png"
   ],
   "node_modules/vuetify/lib/composables/icons.js": [
     "/assets/melissa-D0NFkL1J.png",
@@ -1394,6 +1439,123 @@
     "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
+  "src/assets/images/Wavy/1_select.png": [
+    "/assets/ProductView-ChZ5hrOY.js",
+    "/assets/ProductView-DfYO9MVG.css",
+    "/assets/musician.png-CmFRDxDZ.png",
+    "/assets/podcast.png-BI-VdIkv.png",
+    "/assets/1_select-CGH3yWQl.png",
+    "/assets/2_layout-CyjAHwbr.png",
+    "/assets/3_background-GowzQhJu.png",
+    "/assets/4_waveform-HXWN3V24.png",
+    "/assets/5_text-xYl9y2nQ.png",
+    "/assets/5_text_album-C11-CFlN.png",
+    "/assets/6_font-DuykuxW8.png"
+  ],
+  "src/assets/images/Wavy/2_layout.png": [
+    "/assets/ProductView-ChZ5hrOY.js",
+    "/assets/ProductView-DfYO9MVG.css",
+    "/assets/musician.png-CmFRDxDZ.png",
+    "/assets/podcast.png-BI-VdIkv.png",
+    "/assets/1_select-CGH3yWQl.png",
+    "/assets/2_layout-CyjAHwbr.png",
+    "/assets/3_background-GowzQhJu.png",
+    "/assets/4_waveform-HXWN3V24.png",
+    "/assets/5_text-xYl9y2nQ.png",
+    "/assets/5_text_album-C11-CFlN.png",
+    "/assets/6_font-DuykuxW8.png"
+  ],
+  "src/assets/images/Wavy/3_background.png": [
+    "/assets/ProductView-ChZ5hrOY.js",
+    "/assets/ProductView-DfYO9MVG.css",
+    "/assets/musician.png-CmFRDxDZ.png",
+    "/assets/podcast.png-BI-VdIkv.png",
+    "/assets/1_select-CGH3yWQl.png",
+    "/assets/2_layout-CyjAHwbr.png",
+    "/assets/3_background-GowzQhJu.png",
+    "/assets/4_waveform-HXWN3V24.png",
+    "/assets/5_text-xYl9y2nQ.png",
+    "/assets/5_text_album-C11-CFlN.png",
+    "/assets/6_font-DuykuxW8.png"
+  ],
+  "src/assets/images/Wavy/4_waveform.png": [
+    "/assets/ProductView-ChZ5hrOY.js",
+    "/assets/ProductView-DfYO9MVG.css",
+    "/assets/musician.png-CmFRDxDZ.png",
+    "/assets/podcast.png-BI-VdIkv.png",
+    "/assets/1_select-CGH3yWQl.png",
+    "/assets/2_layout-CyjAHwbr.png",
+    "/assets/3_background-GowzQhJu.png",
+    "/assets/4_waveform-HXWN3V24.png",
+    "/assets/5_text-xYl9y2nQ.png",
+    "/assets/5_text_album-C11-CFlN.png",
+    "/assets/6_font-DuykuxW8.png"
+  ],
+  "src/assets/images/Wavy/5_text.png": [
+    "/assets/ProductView-ChZ5hrOY.js",
+    "/assets/ProductView-DfYO9MVG.css",
+    "/assets/musician.png-CmFRDxDZ.png",
+    "/assets/podcast.png-BI-VdIkv.png",
+    "/assets/1_select-CGH3yWQl.png",
+    "/assets/2_layout-CyjAHwbr.png",
+    "/assets/3_background-GowzQhJu.png",
+    "/assets/4_waveform-HXWN3V24.png",
+    "/assets/5_text-xYl9y2nQ.png",
+    "/assets/5_text_album-C11-CFlN.png",
+    "/assets/6_font-DuykuxW8.png"
+  ],
+  "src/assets/images/Wavy/5_text_album.png": [
+    "/assets/ProductView-ChZ5hrOY.js",
+    "/assets/ProductView-DfYO9MVG.css",
+    "/assets/musician.png-CmFRDxDZ.png",
+    "/assets/podcast.png-BI-VdIkv.png",
+    "/assets/1_select-CGH3yWQl.png",
+    "/assets/2_layout-CyjAHwbr.png",
+    "/assets/3_background-GowzQhJu.png",
+    "/assets/4_waveform-HXWN3V24.png",
+    "/assets/5_text-xYl9y2nQ.png",
+    "/assets/5_text_album-C11-CFlN.png",
+    "/assets/6_font-DuykuxW8.png"
+  ],
+  "src/assets/images/Wavy/6_font.png": [
+    "/assets/ProductView-ChZ5hrOY.js",
+    "/assets/ProductView-DfYO9MVG.css",
+    "/assets/musician.png-CmFRDxDZ.png",
+    "/assets/podcast.png-BI-VdIkv.png",
+    "/assets/1_select-CGH3yWQl.png",
+    "/assets/2_layout-CyjAHwbr.png",
+    "/assets/3_background-GowzQhJu.png",
+    "/assets/4_waveform-HXWN3V24.png",
+    "/assets/5_text-xYl9y2nQ.png",
+    "/assets/5_text_album-C11-CFlN.png",
+    "/assets/6_font-DuykuxW8.png"
+  ],
+  "src/assets/images/Wavy/musician.png.png": [
+    "/assets/ProductView-ChZ5hrOY.js",
+    "/assets/ProductView-DfYO9MVG.css",
+    "/assets/musician.png-CmFRDxDZ.png",
+    "/assets/podcast.png-BI-VdIkv.png",
+    "/assets/1_select-CGH3yWQl.png",
+    "/assets/2_layout-CyjAHwbr.png",
+    "/assets/3_background-GowzQhJu.png",
+    "/assets/4_waveform-HXWN3V24.png",
+    "/assets/5_text-xYl9y2nQ.png",
+    "/assets/5_text_album-C11-CFlN.png",
+    "/assets/6_font-DuykuxW8.png"
+  ],
+  "src/assets/images/Wavy/podcast.png.png": [
+    "/assets/ProductView-ChZ5hrOY.js",
+    "/assets/ProductView-DfYO9MVG.css",
+    "/assets/musician.png-CmFRDxDZ.png",
+    "/assets/podcast.png-BI-VdIkv.png",
+    "/assets/1_select-CGH3yWQl.png",
+    "/assets/2_layout-CyjAHwbr.png",
+    "/assets/3_background-GowzQhJu.png",
+    "/assets/4_waveform-HXWN3V24.png",
+    "/assets/5_text-xYl9y2nQ.png",
+    "/assets/5_text_album-C11-CFlN.png",
+    "/assets/6_font-DuykuxW8.png"
+  ],
   "src/assets/images/Wavy/wavy_top.png": [
     "/assets/melissa-D0NFkL1J.png",
     "/assets/fa-studioset-editor-BeNQEKGO.png",
@@ -1516,11 +1678,29 @@
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
   "src/views/ProductView.vue": [
-    "/assets/ProductView-DBi1vGD7.js",
-    "/assets/ProductView-Dij5Md3S.css"
+    "/assets/ProductView-ChZ5hrOY.js",
+    "/assets/ProductView-DfYO9MVG.css",
+    "/assets/musician.png-CmFRDxDZ.png",
+    "/assets/podcast.png-BI-VdIkv.png",
+    "/assets/1_select-CGH3yWQl.png",
+    "/assets/2_layout-CyjAHwbr.png",
+    "/assets/3_background-GowzQhJu.png",
+    "/assets/4_waveform-HXWN3V24.png",
+    "/assets/5_text-xYl9y2nQ.png",
+    "/assets/5_text_album-C11-CFlN.png",
+    "/assets/6_font-DuykuxW8.png"
   ],
-  "src/views/ProductView.vue?vue&type=style&index=0&scoped=608867cc&lang.css": [
-    "/assets/ProductView-DBi1vGD7.js",
-    "/assets/ProductView-Dij5Md3S.css"
+  "src/views/ProductView.vue?vue&type=style&index=0&scoped=ab926b6a&lang.css": [
+    "/assets/ProductView-ChZ5hrOY.js",
+    "/assets/ProductView-DfYO9MVG.css",
+    "/assets/musician.png-CmFRDxDZ.png",
+    "/assets/podcast.png-BI-VdIkv.png",
+    "/assets/1_select-CGH3yWQl.png",
+    "/assets/2_layout-CyjAHwbr.png",
+    "/assets/3_background-GowzQhJu.png",
+    "/assets/4_waveform-HXWN3V24.png",
+    "/assets/5_text-xYl9y2nQ.png",
+    "/assets/5_text_album-C11-CFlN.png",
+    "/assets/6_font-DuykuxW8.png"
   ]
 }

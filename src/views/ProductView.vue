@@ -48,7 +48,7 @@
                             <v-row>
                                 <v-col cols="12" md="6">
                                     <v-card class="h-100 recommendation-card">
-                                        <v-img src="/src/assets/images/Wavy/musician.png.png" height="300" cover>
+                                        <v-img :src="musicianImage" height="300" cover>
                                             <div class="recommendation-overlay">
                                                 <v-icon size="large" class="mb-2"
                                                     color="white">mdi-music-circle</v-icon>
@@ -60,7 +60,7 @@
                                 </v-col>
                                 <v-col cols="12" md="6">
                                     <v-card class="h-100 recommendation-card">
-                                        <v-img src="/src/assets/images/Wavy/podcast.png.png" height="300" cover>
+                                        <v-img :src="podcastImage" height="300" cover>
                                             <div class="recommendation-overlay">
                                                 <v-icon size="large" class="mb-2" color="white">mdi-podcast</v-icon>
                                                 <h3 class="text-h6 mb-2 text-white">ポッドキャスター</h3>
@@ -81,7 +81,7 @@
                                         <v-card-text>
                                             <h3 class="text-h6 mb-2">1. 音楽とジャケットを選択</h3>
                                             <p class="text-body-2 mb-3">動画にしたい音楽ファイルとジャケット画像を選びます。</p>
-                                            <v-img src="/src/assets/images/Wavy/1_select.png" class="rounded"
+                                            <v-img :src="selectImage" class="rounded"
                                                 max-height="400"></v-img>
                                         </v-card-text>
                                     </v-card>
@@ -91,7 +91,7 @@
                                         <v-card-text>
                                             <h3 class="text-h6 mb-2">2. レイアウトを決定</h3>
                                             <p class="text-body-2 mb-3">レイアウトタブから、動画のサイズなど、作りたい動画のフォーマットを選択します。</p>
-                                            <v-img src="/src/assets/images/Wavy/2_layout.png" class="rounded"
+                                            <v-img :src="layoutImage" class="rounded"
                                                 max-height="400"></v-img>
                                         </v-card-text>
                                     </v-card>
@@ -105,7 +105,7 @@
                                             <h3 class="text-h6 mb-2">3. 背景を選択</h3>
                                             <p class="text-body-2 mb-3">
                                                 背景を選択します。ジャケット画像からぼかし効果で自動生成したり、色を選択したり、別途背景画像も選択できます。</p>
-                                            <v-img src="/src/assets/images/Wavy/3_background.png" class="rounded"
+                                            <v-img :src="backgroundImage" class="rounded"
                                                 max-height="400"></v-img>
                                         </v-card-text>
                                     </v-card>
@@ -116,7 +116,7 @@
                                             <h3 class="text-h6 mb-2">4. 波形描画を選択</h3>
                                             <p class="text-body-2 mb-3">
                                                 どのような波形/周波数スペクトラムを描画するかを選択できます。4種類の波形/スペクトラムを選択できます。</p>
-                                            <v-img src="/src/assets/images/Wavy/4_waveform.png" class="rounded"
+                                            <v-img :src="waveformImage" class="rounded"
                                                 max-height="400"></v-img>
                                         </v-card-text>
                                     </v-card>
@@ -129,11 +129,11 @@
                                         <v-card-text>
                                             <h3 class="text-h6 mb-2">5. テキストデータを入力</h3>
                                             <p class="text-body-2 mb-3">曲名やアーティスト名などの情報を入力します。シングルモードでは1曲の情報を入力します</p>
-                                            <v-img src="/src/assets/images/Wavy/5_text.png" class="rounded"
+                                            <v-img :src="textImage" class="rounded"
                                                 max-height="400"></v-img>
                                             <p class="text-body-2 mt-3">
                                                 アルバム/コンピモードでは複数の曲/アーティスト名を入力でき、再生時間に応じてハイライトを切り替えることができます。</p>
-                                            <v-img src="/src/assets/images/Wavy/5_text_album.png" class="rounded mt-2"
+                                            <v-img :src="textAlbumImage" class="rounded mt-2"
                                                 max-height="400"></v-img>
                                         </v-card-text>
                                     </v-card>
@@ -143,7 +143,7 @@
                                         <v-card-text>
                                             <h3 class="text-h6 mb-2">6. フォントをアレンジ</h3>
                                             <p class="text-body-2 mb-3">フォントやサイズ、配置や文字色を選択し、動画の雰囲気に合ったデザインをすることができます</p>
-                                            <v-img src="/src/assets/images/Wavy/6_font.png" class="rounded"
+                                            <v-img :src="fontImage" class="rounded"
                                                 max-height="400"></v-img>
                                         </v-card-text>
                                     </v-card>
@@ -182,6 +182,16 @@ import { ref, onMounted, computed } from 'vue';
 import { useRoute } from 'vue-router';
 import { useHead } from '@unhead/vue';
 import { products } from '@/data/products.js';
+
+import musicianImage from '@/assets/images/Wavy/musician.png.png';
+import podcastImage from '@/assets/images/Wavy/podcast.png.png';
+import selectImage from '@/assets/images/Wavy/1_select.png';
+import layoutImage from '@/assets/images/Wavy/2_layout.png';
+import backgroundImage from '@/assets/images/Wavy/3_background.png';
+import waveformImage from '@/assets/images/Wavy/4_waveform.png';
+import textImage from '@/assets/images/Wavy/5_text.png';
+import textAlbumImage from '@/assets/images/Wavy/5_text_album.png';
+import fontImage from '@/assets/images/Wavy/6_font.png';
 
 const route = useRoute();
 const product = ref(null);
