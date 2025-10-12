@@ -3,6 +3,7 @@ import faStudioSetEditorScreenshot from '@/assets/images/fa-studioset-editor.png
 import volcaFm2UtilityScreenshot from '@/assets/images/volcafm2-utility.png';
 import modxLivesetUtilityScreenshot from '@/assets/images/modx-liveset-utility.png';
 import wavyScreenshot from '@/assets/images/wavy.png';
+import wavyTopImage from '@/assets/images/Wavy/wavy_top.png';
 
 export const products = [
   {
@@ -10,7 +11,8 @@ export const products = [
     name: 'Wavy',
     description: 'An iOS app to create cool videos from album art and music.',
     appStore: 'https://apps.apple.com/jp/app/wavy-music-video-studio/id6753092962',
-    screenshot: wavyScreenshot
+    screenshot: wavyScreenshot,
+    detailImage: wavyTopImage
   },
   {
     id: 'melissa',

@@ -21,4 +21,23 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
+  ssr: {
+    noExternal: ['vuetify'],
+  },
+  ssgOptions: {
+    script: 'async',
+    formatting: 'minify',
+    format: 'esm',
+    includedRoutes: (paths) => {
+      // Include all product pages
+      return [
+        '/',
+        '/products/wavy',
+        '/products/melissa',
+        '/products/volcafm2-utility',
+        '/products/modx-liveset-utility',
+        '/products/fa-studioset-editor',
+      ]
+    },
+  },
 })

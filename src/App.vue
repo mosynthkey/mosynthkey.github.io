@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar app>
+    <v-app-bar v-if="!isProductPage" app>
       <v-app-bar-title>Melissa Audio</v-app-bar-title>
     </v-app-bar>
 
@@ -17,7 +17,11 @@
 </template>
 
 <script setup>
-// No script needed for this simple layout
+import { computed } from 'vue'
+import { useRoute } from 'vue-router'
+
+const route = useRoute()
+const isProductPage = computed(() => route.name === 'product')
 </script>
 
 <style>
