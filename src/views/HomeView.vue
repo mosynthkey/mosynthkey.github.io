@@ -15,12 +15,17 @@
           :target="product.website ? '_blank' : undefined"
           :to="product.website ? undefined : `/products/${product.id}`"
           height="380"
+          flat
+          :elevation="0"
         >
-          <v-img
-            :src="product.screenshot"
-            height="200px"
-            cover
-          ></v-img>
+          <div style="height: 200px; flex-shrink: 0;">
+            <v-img
+              :src="product.screenshot"
+              height="200px"
+              width="100%"
+              cover
+            ></v-img>
+          </div>
 
           <v-card-title>
             {{ getProductName(product.id) }}
