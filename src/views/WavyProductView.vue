@@ -1,6 +1,6 @@
 <template>
     <div v-if="product">
-        <v-app-bar color="primary" prominent>
+        <v-app-bar color="primary">
             <v-btn icon to="/">
                 <v-icon>mdi-arrow-left</v-icon>
             </v-btn>
@@ -10,11 +10,11 @@
             <v-spacer></v-spacer>
 
             <v-btn v-if="product.github" :href="product.github" target="_blank" prepend-icon="mdi-github"
-                variant="outlined" class="mr-2">
+                variant="outlined" size="small" class="mr-2">
                 GitHub
             </v-btn>
             <v-btn v-if="product.appStore" :href="product.appStore" target="_blank" prepend-icon="mdi-apple"
-                color="white" class="mr-2">
+                color="white" size="small" class="mr-2">
                 {{ t('products.wavy.downloadButton') }}
             </v-btn>
 
@@ -24,10 +24,10 @@
                 item-title="name"
                 item-value="code"
                 density="compact"
-                variant="outlined"
+                variant="plain"
                 hide-details
-                style="max-width: 150px;"
-                class="mr-4"
+                style="max-width: 120px; min-width: 120px;"
+                class="mr-2 align-center language-select"
                 @update:model-value="changeLocale"
             >
                 <template v-slot:prepend-inner>
@@ -244,7 +244,6 @@ const pageImage = computed(() => {
 const headData = computed(() => ({
   title: pageTitle.value,
   meta: [
-    { name: 'google-site-verification', content: 'HJ3w1fFgyDekXmAwwBB7muiIvzTSVU4AvaoGU6_7eOM' },
     { name: 'description', content: pageDescription.value },
     { name: 'keywords', content: pageKeywords.value },
     { property: 'og:title', content: pageTitle.value },
@@ -328,6 +327,29 @@ useHead(headData)
   align-items: center;
   padding: 20px;
   text-align: center;
+}
+
+.language-select :deep(.v-field) {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.language-select :deep(.v-field__input) {
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+  min-height: 36px !important;
+}
+
+.language-select :deep(.v-field__prepend-inner) {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  align-items: center !important;
+}
+
+.language-select :deep(.v-field__append-inner) {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  align-items: center !important;
 }
 </style>
 

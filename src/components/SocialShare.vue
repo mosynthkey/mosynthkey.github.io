@@ -6,9 +6,10 @@
       :href="network.url"
       target="_blank"
       rel="noopener noreferrer"
-      :color="network.color"
       :icon="network.icon"
       size="small"
+      variant="text"
+      color="grey"
       class="ma-1"
       @click="trackShare(network.name)"
     >

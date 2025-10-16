@@ -1,26 +1,28 @@
 <template>
   <v-app>
-    <v-app-bar v-if="!isProductPage" app density="compact">
-      <v-app-bar-title class="text-h6">{{ t('common.siteName') }}</v-app-bar-title>
+    <v-app-bar v-if="!isProductPage" app>
+      <v-app-bar-title>{{ t('common.siteName') }}</v-app-bar-title>
 
       <v-spacer></v-spacer>
 
-      <v-select
-        v-model="selectedLocale"
-        :items="availableLocales"
-        item-title="name"
-        item-value="code"
-        density="compact"
-        variant="outlined"
-        hide-details
-        style="max-width: 150px;"
-        class="mr-4"
-        @update:model-value="changeLocale"
-      >
-        <template v-slot:prepend-inner>
-          <v-icon size="small">mdi-translate</v-icon>
-        </template>
-      </v-select>
+      <div class="language-select-wrapper">
+        <v-select
+          v-model="selectedLocale"
+          :items="availableLocales"
+          item-title="name"
+          item-value="code"
+          density="compact"
+          variant="plain"
+          hide-details
+          style="max-width: 120px; min-width: 120px;"
+          class="mr-4 align-center language-select"
+          @update:model-value="changeLocale"
+        >
+          <template v-slot:prepend-inner>
+            <v-icon size="small">mdi-translate</v-icon>
+          </template>
+        </v-select>
+      </div>
     </v-app-bar>
 
     <v-main>
@@ -106,5 +108,46 @@ body {
 
 a {
   color: inherit;
+}
+
+/* Language select padding adjustments */
+.language-select-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.language-select-wrapper .language-select :deep(.v-field),
+.language-select :deep(.v-field),
+.v-app-bar .language-select :deep(.v-field) {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+.language-select-wrapper .language-select :deep(.v-field__input),
+.language-select :deep(.v-field__input),
+.v-app-bar .language-select :deep(.v-field__input) {
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+  min-height: 36px !important;
+}
+
+.language-select-wrapper .language-select :deep(.v-field__prepend-inner),
+.language-select :deep(.v-field__prepend-inner),
+.v-app-bar .language-select :deep(.v-field__prepend-inner) {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin-top: 0 !important;
+  align-items: center !important;
+  display: flex !important;
+}
+
+.language-select-wrapper .language-select :deep(.v-field__append-inner),
+.language-select :deep(.v-field__append-inner),
+.v-app-bar .language-select :deep(.v-field__append-inner) {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin-top: 0 !important;
+  align-items: center !important;
+  display: flex !important;
 }
 </style>
