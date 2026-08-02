@@ -14,7 +14,7 @@
           :href="product.website"
           :target="product.website ? '_blank' : undefined"
           :to="product.website ? undefined : `/products/${product.id}`"
-          height="380"
+          height="440"
           flat
           :elevation="0"
         >
@@ -30,6 +30,18 @@
           <v-card-title>
             {{ getProductName(product.id) }}
           </v-card-title>
+
+          <div class="platform-badges px-4 pb-2">
+            <v-chip
+              v-for="platform in product.platforms"
+              :key="platform"
+              size="small"
+              variant="flat"
+              :class="`platform-badge platform-badge--${platform}`"
+            >
+              {{ t(`platforms.${platform}`) }}
+            </v-chip>
+          </div>
 
           <v-card-text class="pb-4 flex-grow-1">
             {{ getProductDescription(product.id) }}
@@ -90,3 +102,31 @@ const getProductDescription = (id) => {
   return t(`products.${key}.description`)
 }
 </script>
+
+<style scoped>
+.platform-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.platform-badge--web {
+  background: #ddf5e8;
+  color: #286348;
+}
+
+.platform-badge--windows {
+  background: #e2efff;
+  color: #315f96;
+}
+
+.platform-badge--macos {
+  background: #eee7ff;
+  color: #66518f;
+}
+
+.platform-badge--ios {
+  background: #ffe7f0;
+  color: #8b4964;
+}
+</style>

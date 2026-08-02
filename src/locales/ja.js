@@ -10,7 +10,17 @@ export default {
     appStore: 'App Store',
     description: 'オーディオアプリケーション・音楽制作ツールの開発'
   },
+  platforms: {
+    web: 'Web App',
+    windows: 'Windows',
+    macos: 'macOS',
+    ios: 'iOS'
+  },
   products: {
+    screenDesc: {
+      name: 'ScreenDesc',
+      description: 'AIによるUI認識とOCRを搭載した、アプリやソフトの説明画像制作のためのスクリーンショット注釈ツール'
+    },
     wavy: {
       name: 'Wavy',
       description: '音源とジャケット画像からかっこいい動画を作成するiOSアプリ',

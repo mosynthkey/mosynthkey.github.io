@@ -1,7 +1,11 @@
 <template>
   <v-app>
     <v-app-bar v-if="!isProductPage" app>
-      <v-app-bar-title>{{ t('common.siteName') }}</v-app-bar-title>
+      <v-app-bar-title>
+        <router-link to="/" class="site-logo-link" :aria-label="t('common.siteName')">
+          <img :src="melissaAudioLogo" :alt="t('common.siteName')" class="site-logo" />
+        </router-link>
+      </v-app-bar-title>
 
       <v-spacer></v-spacer>
 
@@ -49,6 +53,7 @@ import { ref, computed } from 'vue'
 import { useRoute } from 'vue-router'
 import { useI18n } from 'vue-i18n'
 import SocialShare from '@/components/SocialShare.vue'
+import melissaAudioLogo from '@/assets/melissa-audio-logo.svg'
 
 const route = useRoute()
 const { locale, t } = useI18n()
@@ -108,6 +113,18 @@ body {
 
 a {
   color: inherit;
+}
+
+.site-logo-link {
+  display: inline-flex;
+  align-items: center;
+  height: 100%;
+}
+
+.site-logo {
+  display: block;
+  width: clamp(150px, 16vw, 190px);
+  height: auto;
 }
 
 /* Language select padding adjustments */
