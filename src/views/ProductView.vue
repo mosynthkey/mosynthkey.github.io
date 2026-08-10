@@ -9,7 +9,7 @@
 
             <v-spacer></v-spacer>
 
-            <v-btn v-if="product.website" :href="product.website" target="_blank" prepend-icon="mdi-web"
+            <v-btn v-if="productWebsite" :href="productWebsite" target="_blank" prepend-icon="mdi-web"
                 variant="outlined" class="mr-2">
                 公式サイト
             </v-btn>
@@ -44,9 +44,11 @@
 import { ref, onMounted, computed } from 'vue';
 import { useRoute } from 'vue-router';
 import { useHead } from '@unhead/vue';
+import { useI18n } from 'vue-i18n';
 import { products } from '@/data/products.js';
 
 const route = useRoute();
+const { locale } = useI18n();
 const product = ref(null);
 
 const productId = route.params.id;
@@ -60,6 +62,11 @@ onMounted(() => {
 const pageTitle = computed(() => {
   if (!product.value) return 'Product Not Found';
   return `${product.value.name} - Melissa Audio`;
+});
+
+const productWebsite = computed(() => {
+  if (!product.value) return null;
+  return product.value.websiteByLocale?.[locale.value] || product.value.website;
 });
 
 const pageDescription = computed(() => {

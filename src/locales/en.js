@@ -3,7 +3,10 @@ export default {
     siteName: 'Melissa Audio',
     copyright: 'Melissa Audio',
     backButton: 'Back',
-    details: 'Details'
+    details: 'Details',
+    openWebApp: 'Open the Web App',
+    openSite: 'Visit the Site',
+    openAppStore: 'Open on the App Store'
   },
   home: {
     viewOnGitHub: 'View on GitHub',

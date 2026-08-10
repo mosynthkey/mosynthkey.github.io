@@ -8,15 +8,6 @@ import screenDescScreenshot from '@/assets/images/screendesc.png';
 
 export const products = [
   {
-    id: 'screen-desc',
-    name: 'ScreenDesc',
-    description: 'An AI-powered screenshot annotation tool for creating clear app and software guides.',
-    website: 'https://mosynthkey.github.io/ScreenDesc/landing/',
-    github: 'https://github.com/mosynthkey/ScreenDesc',
-    screenshot: screenDescScreenshot,
-    platforms: ['web', 'windows', 'macos']
-  },
-  {
     id: 'wavy',
     name: 'Wavy',
     description: 'An iOS app to create cool videos from album art and music.',
@@ -33,6 +24,19 @@ export const products = [
     github: 'https://github.com/mosynthkey/Melissa',
     screenshot: melissaScreenshot,
     platforms: ['windows', 'macos']
+  },
+  {
+    id: 'screen-desc',
+    name: 'ScreenDesc',
+    description: 'An AI-powered screenshot annotation tool for creating clear app and software guides.',
+    website: 'https://mosynthkey.github.io/ScreenDesc/landing/',
+    websiteByLocale: {
+      ja: 'https://mosynthkey.github.io/ScreenDesc/landing/ja/',
+      en: 'https://mosynthkey.github.io/ScreenDesc/landing/'
+    },
+    github: 'https://github.com/mosynthkey/ScreenDesc',
+    screenshot: screenDescScreenshot,
+    platforms: ['web', 'windows', 'macos']
   },
   {
     id: 'volcafm2-utility',

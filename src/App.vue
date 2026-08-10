@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-app-bar v-if="!isProductPage" app>
+    <v-app-bar v-if="!hasCustomChrome" app>
       <v-app-bar-title>
         <router-link to="/" class="site-logo-link" :aria-label="t('common.siteName')">
           <img :src="melissaAudioLogo" :alt="t('common.siteName')" class="site-logo" />
@@ -33,7 +33,7 @@
       <router-view />
     </v-main>
 
-    <v-footer app>
+    <v-footer v-if="!isHome" app>
       <div class="d-flex w-100 align-center">
         <span>&copy; {{ new Date().getFullYear() }} {{ t('common.copyright') }}</span>
         <v-spacer></v-spacer>
@@ -59,6 +59,8 @@ const route = useRoute()
 const { locale, t } = useI18n()
 
 const isProductPage = computed(() => route.name === 'product' || route.name === 'wavy-product')
+const isHome = computed(() => route.name === 'home')
+const hasCustomChrome = computed(() => isProductPage.value || isHome.value)
 
 const availableLocales = [
   { code: 'ja', name: '日本語' },

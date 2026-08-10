@@ -110,3 +110,4 @@ dist-ssr
 # IDEs
 .vscode/
 .idea/
+.claude/

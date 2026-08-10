@@ -3,7 +3,10 @@ export default {
     siteName: 'Melissa Audio',
     copyright: 'Melissa Audio',
     backButton: '戻る',
-    details: '詳細'
+    details: '詳細',
+    openWebApp: 'Webアプリを開く',
+    openSite: 'サイトを開く',
+    openAppStore: 'App Storeで開く'
   },
   home: {
     viewOnGitHub: 'GitHubで見る',
