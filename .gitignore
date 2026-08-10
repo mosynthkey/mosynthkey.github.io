@@ -111,3 +111,6 @@ dist-ssr
 .vscode/
 .idea/
 .claude/
+
+# Design handoff docs (local reference only, not part of the site)
+design_handoff_top_redesign/
