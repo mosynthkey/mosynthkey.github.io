@@ -114,3 +114,6 @@ dist-ssr
 
 # Design handoff docs (local reference only, not part of the site)
 design_handoff_top_redesign/
+
+# Local project instructions for Claude Code
+CLAUDE.md
