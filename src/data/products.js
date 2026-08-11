@@ -1,10 +1,13 @@
-import melissaScreenshot from '@/assets/images/melissa.png';
 import faStudioSetEditorScreenshot from '@/assets/images/fa-studioset-editor.png';
 import volcaFm2UtilityScreenshot from '@/assets/images/volcafm2-utility.png';
 import modxLivesetUtilityScreenshot from '@/assets/images/modx-liveset-utility.png';
-import wavyScreenshot from '@/assets/images/wavy.png';
 import wavyTopImage from '@/assets/images/Wavy/wavy_top.png';
-import screenDescScreenshot from '@/assets/images/screendesc.png';
+import wavyBg from '@/assets/images/wavy_bg.png';
+import wavyIcon from '@/assets/images/wavy_icon.png';
+import melissaBg from '@/assets/images/melissa_bg.png';
+import melissaIcon from '@/assets/images/melissa_icon.png';
+import screenDescBg from '@/assets/images/screendesc_bg.png';
+import screenDescIcon from '@/assets/images/screendesc_icon.png';
 
 export const products = [
   {
@@ -12,7 +15,8 @@ export const products = [
     name: 'Wavy',
     description: 'An iOS app to create cool videos from album art and music.',
     appStore: 'https://apps.apple.com/jp/app/wavy-music-video-studio/id6753092962',
-    screenshot: wavyScreenshot,
+    screenshot: wavyBg,
+    icon: wavyIcon,
     detailImage: wavyTopImage,
     platforms: ['ios']
   },
@@ -22,8 +26,9 @@ export const products = [
     description: 'A music player for musical instrument practice',
     website: 'https://mosynthkey.github.io/Melissa/',
     github: 'https://github.com/mosynthkey/Melissa',
-    screenshot: melissaScreenshot,
-    platforms: ['windows', 'macos']
+    screenshot: melissaBg,
+    icon: melissaIcon,
+    platforms: ['macos', 'windows']
   },
   {
     id: 'screen-desc',
@@ -35,7 +40,8 @@ export const products = [
       en: 'https://mosynthkey.github.io/ScreenDesc/landing/'
     },
     github: 'https://github.com/mosynthkey/ScreenDesc',
-    screenshot: screenDescScreenshot,
+    screenshot: screenDescBg,
+    icon: screenDescIcon,
     platforms: ['web', 'windows', 'macos']
   },
   {

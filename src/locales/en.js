@@ -9,7 +9,7 @@ export default {
     openAppStore: 'Open on the App Store'
   },
   home: {
-    viewOnGitHub: 'View on GitHub',
+    viewOnGitHub: 'GitHub',
     appStore: 'App Store',
     description: 'Audio applications and music production tools development'
   },

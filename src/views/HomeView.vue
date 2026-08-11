@@ -8,17 +8,38 @@
 
           <div class="info-panel">
             <div class="platform-badge">{{ getPlatformsLabel(product) }}</div>
-            <h1 class="product-name">{{ getProductName(product.id) }}</h1>
-            <p class="product-description" :ref="(el) => setDescRef(el, index)">{{ getProductDescription(product.id) }}</p>
-            <a
-              v-if="getProductUrl(product)"
-              class="cta-button"
-              :href="getProductUrl(product)"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {{ getCtaLabel(product) }} ↗
-            </a>
+            <div class="product-header">
+              <img
+                v-if="product.icon"
+                class="product-icon"
+                :src="product.icon"
+                :alt="getProductName(product.id)"
+              />
+              <div class="product-header-text">
+                <h1 class="product-name">{{ getProductName(product.id) }}</h1>
+                <p class="product-description" :ref="(el) => setDescRef(el, index)">{{ getProductDescription(product.id) }}</p>
+                <div v-if="getProductUrl(product)" class="cta-row">
+                  <a
+                    class="cta-button"
+                    :href="getProductUrl(product)"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {{ getCtaLabel(product) }} ↗
+                  </a>
+                  <a
+                    v-if="showGithubLink(product)"
+                    class="github-button"
+                    :href="product.github"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <span class="mdi mdi-github" aria-hidden="true"></span>
+                    {{ t('home.viewOnGitHub') }}
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -53,8 +74,9 @@
         <span
           class="dock-icon"
           :class="{ 'dock-icon--hover': hoverDock === index }"
-          :style="{ backgroundImage: `url(${product.screenshot})` }"
+          :style="{ backgroundImage: `url(${product.icon || product.screenshot})` }"
         ></span>
+        <span class="dock-dot" :class="{ 'dock-dot--active': index === selected }"></span>
       </button>
     </div>
   </div>
@@ -134,6 +156,10 @@ const getProductWebsite = (product) => {
 
 const getProductUrl = (product) => {
   return getProductWebsite(product) || product.appStore || product.github
+}
+
+const showGithubLink = (product) => {
+  return !!product.github && product.github !== getProductUrl(product)
 }
 
 const getCtaLabel = (product) => {
@@ -350,6 +376,30 @@ watch(locale, () => nextTick(fitAllDescriptions))
   width: fit-content;
 }
 
+.product-header {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  width: 100%;
+}
+
+.product-icon {
+  flex-shrink: 0;
+  width: 132px;
+  height: 132px;
+  object-fit: contain;
+  filter: drop-shadow(0 12px 32px rgba(0, 0, 0, 0.45));
+}
+
+.product-header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 18px;
+  min-width: 0;
+  flex: 1;
+}
+
 .product-name {
   font-family: 'Space Grotesk', sans-serif;
   font-weight: 700;
@@ -397,6 +447,43 @@ watch(locale, () => nextTick(fitAllDescriptions))
   box-shadow: 0 10px 28px rgba(130, 171, 227, 0.35);
 }
 
+.cta-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 6px;
+}
+
+.cta-row .cta-button {
+  margin-top: 0;
+}
+
+.github-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 15px 26px;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  color: #F2F2ED;
+  font-family: 'Space Grotesk', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  text-decoration: none;
+  transition: background 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.github-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-1px);
+}
+
+.github-button .mdi-github {
+  font-size: 18px;
+  line-height: 1;
+}
+
 .dock {
   position: absolute;
   bottom: 22px;
@@ -406,12 +493,15 @@ watch(locale, () => nextTick(fitAllDescriptions))
   display: flex;
   align-items: flex-end;
   gap: 14px;
+  height: 62px;
   padding: 12px 18px;
   border-radius: 26px;
   background: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.16);
   backdrop-filter: blur(24px);
   box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+  box-sizing: content-box;
+  transition: gap 0.2s ease;
 }
 
 .dock-item {
@@ -444,21 +534,29 @@ watch(locale, () => nextTick(fitAllDescriptions))
   display: block;
   width: 52px;
   height: 52px;
-  border-radius: 13px;
+  clip-path: polygon(100.00% 50.00%, 99.88% 65.65%, 99.52% 72.08%, 98.91% 76.94%, 98.06% 80.93%, 96.96% 84.33%, 95.59% 87.27%, 93.96% 89.82%, 92.04% 92.04%, 89.82% 93.96%, 87.27% 95.59%, 84.33% 96.96%, 80.93% 98.06%, 76.94% 98.91%, 72.08% 99.52%, 65.65% 99.88%, 50.00% 100.00%, 34.35% 99.88%, 27.92% 99.52%, 23.06% 98.91%, 19.07% 98.06%, 15.67% 96.96%, 12.73% 95.59%, 10.18% 93.96%, 7.96% 92.04%, 6.04% 89.82%, 4.41% 87.27%, 3.04% 84.33%, 1.94% 80.93%, 1.09% 76.94%, 0.48% 72.08%, 0.12% 65.65%, 0.00% 50.00%, 0.12% 34.35%, 0.48% 27.92%, 1.09% 23.06%, 1.94% 19.07%, 3.04% 15.67%, 4.41% 12.73%, 6.04% 10.18%, 7.96% 7.96%, 10.18% 6.04%, 12.73% 4.41%, 15.67% 3.04%, 19.07% 1.94%, 23.06% 1.09%, 27.92% 0.48%, 34.35% 0.12%, 50.00% 0.00%, 65.65% 0.12%, 72.08% 0.48%, 76.94% 1.09%, 80.93% 1.94%, 84.33% 3.04%, 87.27% 4.41%, 89.82% 6.04%, 92.04% 7.96%, 93.96% 10.18%, 95.59% 12.73%, 96.96% 15.67%, 98.06% 19.07%, 98.91% 23.06%, 99.52% 27.92%, 99.88% 34.35%);
   background-size: cover;
   background-position: center;
-  box-shadow: none;
-  transition: width 0.2s ease, height 0.2s ease, box-shadow 0.15s ease;
+  transition: width 0.2s ease, height 0.2s ease;
 }
 
 .dock-icon--hover {
   width: 104px;
   height: 104px;
-  border-radius: 20px;
 }
 
-.dock-item--selected .dock-icon {
-  box-shadow: 0 0 0 2px #82ABE3;
+.dock-dot {
+  display: block;
+  width: 5px;
+  height: 5px;
+  margin-top: 5px;
+  border-radius: 50%;
+  background: transparent;
+}
+
+.dock-dot--active {
+  background: #F2F2ED;
+  box-shadow: 0 0 6px rgba(242, 242, 237, 0.6);
 }
 
 @media (max-width: 600px) {
@@ -476,12 +574,22 @@ watch(locale, () => nextTick(fitAllDescriptions))
     padding: 0 24px 130px;
   }
 
+  .product-header {
+    gap: 14px;
+  }
+
+  .product-icon {
+    width: 76px;
+    height: 76px;
+  }
+
   .product-description {
     line-height: 1.4;
   }
 
   .dock {
     gap: 8px;
+    height: 52px;
     padding: 10px 12px;
   }
 
@@ -493,7 +601,6 @@ watch(locale, () => nextTick(fitAllDescriptions))
   .dock-icon--hover {
     width: 84px;
     height: 84px;
-    border-radius: 18px;
   }
 
   .dock-tooltip {
