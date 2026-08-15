@@ -1,5 +1,6 @@
 import faStudioSetEditorScreenshot from '@/assets/images/fa-studioset-editor.png';
-import volcaFm2UtilityScreenshot from '@/assets/images/volcafm2-utility.png';
+import volcaFm2Bg from '@/assets/images/volcafm2_bg.png';
+import volcaFm2Icon from '@/assets/images/volcafm2_icon.png';
 import modxLivesetUtilityScreenshot from '@/assets/images/modx-liveset-utility.png';
 import wavyTopImage from '@/assets/images/Wavy/wavy_top.png';
 import wavyBg from '@/assets/images/wavy_bg.png';
@@ -45,12 +46,13 @@ export const products = [
     platforms: ['web', 'windows', 'macos']
   },
   {
-    id: 'volcafm2-utility',
-    name: 'KORG volca fm2 utility',
-    description: 'Receive programs from KORG volca fm2 and save as DX7 SysEx',
-    website: 'https://mosynthkey.github.io/volcafm2-dx7/',
+    id: 'volcafm2-tools',
+    name: 'volca fm2 tools',
+    description: 'A Program and Sequence editor for the KORG volca fm2 with DX7 SysEx support',
+    website: 'https://mosynthkey.github.io/volcafm2-tools/',
     github: 'https://github.com/mosynthkey/volcafm2-dx7',
-    screenshot: volcaFm2UtilityScreenshot,
+    screenshot: volcaFm2Bg,
+    icon: volcaFm2Icon,
     platforms: ['web']
   },
   {

@@ -34,7 +34,7 @@ export default defineConfig({
         '/',
         '/products/wavy',
         '/products/melissa',
-        '/products/volcafm2-utility',
+        '/products/volcafm2-tools',
         '/products/modx-liveset-utility',
         '/products/fa-studioset-editor',
       ]

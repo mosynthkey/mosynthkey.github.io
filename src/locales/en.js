@@ -76,9 +76,9 @@ export default {
       name: 'FA StudioSet Editor',
       description: 'Studio set editor for Roland FA series'
     },
-    volcafm2Utility: {
-      name: 'volca fm2 Utility',
-      description: 'Receive programs from KORG volca fm2 and save as DX7 SysEx'
+    volcafm2Tools: {
+      name: 'volca fm2 tools',
+      description: 'A Program and Sequence editor for the KORG volca fm2 with DX7 SysEx support'
     },
     modxLivesetUtility: {
       name: 'MODX Liveset Utility',
