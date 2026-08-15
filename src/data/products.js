@@ -48,7 +48,7 @@ export const products = [
   {
     id: 'volcafm2-tools',
     name: 'volca fm2 tools',
-    description: 'A Program and Sequence editor for the KORG volca fm2 with DX7 SysEx support',
+    description: 'Sound and sequence editor for the KORG volca fm2',
     website: 'https://mosynthkey.github.io/volcafm2-tools/',
     github: 'https://github.com/mosynthkey/volcafm2-dx7',
     screenshot: volcaFm2Bg,

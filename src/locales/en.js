@@ -78,7 +78,7 @@ export default {
     },
     volcafm2Tools: {
       name: 'volca fm2 tools',
-      description: 'A Program and Sequence editor for the KORG volca fm2 with DX7 SysEx support'
+      description: 'Sound and sequence editor for the KORG volca fm2'
     },
     modxLivesetUtility: {
       name: 'MODX Liveset Utility',

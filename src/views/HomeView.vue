@@ -17,7 +17,7 @@
               />
               <div class="product-header-text">
                 <h1 class="product-name">{{ getProductName(product.id) }}</h1>
-                <p class="product-description" :ref="(el) => setDescRef(el, index)">{{ getProductDescription(product.id) }}</p>
+                <p class="product-description">{{ getProductDescription(product.id) }}</p>
                 <div v-if="getProductUrl(product)" class="cta-row">
                   <a
                     class="cta-button"
@@ -67,7 +67,7 @@
         class="dock-item"
         :class="{ 'dock-item--selected': index === selected }"
         @click="selectProduct(index)"
-        @mouseenter="hoverDock = index"
+        @mouseenter="onDockEnter(index)"
         @mouseleave="hoverDock = null"
       >
         <span v-if="hoverDock === index" class="dock-tooltip">{{ getProductName(product.id) }}</span>
@@ -83,35 +83,18 @@
 </template>
 
 <script setup>
-import { ref, computed, onMounted, onUnmounted, nextTick, watch } from 'vue'
+import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { useHead } from '@unhead/vue'
 import { products } from '@/data/products.js'
 
 const { locale, t } = useI18n()
 
-const DESC_MAX_FONT_PX = 26
-const DESC_MIN_FONT_PX = 13
+const canHoverDock = () =>
+  window.matchMedia('(hover: hover) and (pointer: fine)').matches
 
-const descRefs = ref([])
-const setDescRef = (el, index) => {
-  if (el) descRefs.value[index] = el
-}
-
-const fitDescription = (el) => {
-  if (!el) return
-  const viewportBasedMax = Math.min(DESC_MAX_FONT_PX, Math.max(DESC_MIN_FONT_PX, window.innerWidth * 0.022))
-  let fontSize = viewportBasedMax
-  el.style.fontSize = `${fontSize}px`
-  while (el.scrollWidth > el.clientWidth && fontSize > DESC_MIN_FONT_PX) {
-    fontSize -= 1
-    el.style.fontSize = `${fontSize}px`
-  }
-}
-
-const fitAllDescriptions = () => {
-  if (typeof window === 'undefined') return
-  descRefs.value.forEach(fitDescription)
+const onDockEnter = (index) => {
+  if (canHoverDock()) hoverDock.value = index
 }
 
 const AUTOPLAY_INTERVAL_MS = 12000
@@ -205,7 +188,6 @@ useHead({
 
 let previousHtmlOverflow
 let previousBodyOverflow
-let resizeHandler
 
 onMounted(() => {
   previousHtmlOverflow = document.documentElement.style.overflow
@@ -213,21 +195,13 @@ onMounted(() => {
   document.documentElement.style.overflow = 'hidden'
   document.body.style.overflow = 'hidden'
   startAutoplay()
-
-  nextTick(fitAllDescriptions)
-  document.fonts?.ready.then(fitAllDescriptions)
-  resizeHandler = () => fitAllDescriptions()
-  window.addEventListener('resize', resizeHandler)
 })
 
 onUnmounted(() => {
   document.documentElement.style.overflow = previousHtmlOverflow
   document.body.style.overflow = previousBodyOverflow
   clearInterval(autoplayTimer)
-  window.removeEventListener('resize', resizeHandler)
 })
-
-watch(locale, () => nextTick(fitAllDescriptions))
 </script>
 
 <style scoped>
@@ -418,8 +392,8 @@ watch(locale, () => nextTick(fitAllDescriptions))
   color: #E4E4E8;
   width: 100%;
   max-width: 100%;
-  white-space: nowrap;
-  overflow: hidden;
+  white-space: pre-line;
+  overflow-wrap: break-word;
   text-shadow: 0 2px 16px rgba(0, 0, 0, 0.45);
   margin: 0;
 }
@@ -559,52 +533,81 @@ watch(locale, () => nextTick(fitAllDescriptions))
   box-shadow: 0 0 6px rgba(242, 242, 237, 0.6);
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px), (max-height: 640px) {
   .top-nav {
-    padding: 16px 20px;
+    padding: max(16px, env(safe-area-inset-top, 0px)) 20px 16px;
   }
 
   .screen-copyright {
-    left: 20px;
-    bottom: 20px;
-    font-size: 10px;
+    display: none;
+  }
+
+  .bg-gradient {
+    background: linear-gradient(
+      180deg,
+      rgba(10, 10, 13, 0.88) 0%,
+      rgba(10, 10, 13, 0.42) 36%,
+      rgba(10, 10, 13, 0.2) 58%,
+      rgba(10, 10, 13, 0.82) 100%
+    );
   }
 
   .info-panel {
-    padding: 0 24px 130px;
+    top: 0;
+    bottom: auto;
+    padding: calc(68px + env(safe-area-inset-top, 0px)) 20px 20px;
+    gap: 12px;
   }
 
   .product-header {
+    align-items: flex-start;
     gap: 14px;
   }
 
   .product-icon {
-    width: 76px;
-    height: 76px;
+    width: 64px;
+    height: 64px;
+  }
+
+  .product-header-text {
+    gap: 10px;
+  }
+
+  .product-name {
+    font-size: clamp(26px, 7vw, 36px);
   }
 
   .product-description {
-    line-height: 1.4;
+    font-size: 15px;
+    line-height: 1.45;
+  }
+
+  .cta-row {
+    flex-wrap: wrap;
+    margin-top: 2px;
+  }
+
+  .cta-button,
+  .github-button {
+    padding: 12px 18px;
+    font-size: 14px;
   }
 
   .dock {
     gap: 8px;
     height: 52px;
     padding: 10px 12px;
+    bottom: max(16px, env(safe-area-inset-bottom, 0px));
   }
 
-  .dock-icon {
+  .dock-icon,
+  .dock-icon--hover {
     width: 42px;
     height: 42px;
   }
 
-  .dock-icon--hover {
-    width: 84px;
-    height: 84px;
-  }
-
   .dock-tooltip {
-    bottom: 96px;
+    display: none;
   }
 }
 </style>

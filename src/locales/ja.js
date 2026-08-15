@@ -78,7 +78,7 @@ export default {
     },
     volcafm2Tools: {
       name: 'volca fm2 tools',
-      description: 'KORG volca fm2 の Program / Sequence エディタ。DX7 SysEx の読み書きにも対応'
+      description: 'KORG volca fm2 用の音色／シーケンスエディタ'
     },
     modxLivesetUtility: {
       name: 'MODX Liveset Utility',
