@@ -25,7 +25,8 @@
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {{ getCtaLabel(product) }} ↗
+                    {{ getCtaLabel(product) }}
+                    <span class="mdi mdi-arrow-top-right" aria-hidden="true"></span>
                   </a>
                   <a
                     v-if="showGithubLink(product)"
@@ -415,6 +416,11 @@ onUnmounted(() => {
   margin-top: 6px;
 }
 
+.cta-button .mdi {
+  font-size: 16px;
+  line-height: 1;
+}
+
 .cta-button:hover {
   background: #b0cbf0;
   transform: translateY(-1px);
@@ -555,12 +561,15 @@ onUnmounted(() => {
   .info-panel {
     top: 0;
     bottom: auto;
+    align-items: center;
     padding: calc(68px + env(safe-area-inset-top, 0px)) 20px 20px;
     gap: 12px;
+    text-align: center;
   }
 
   .product-header {
-    align-items: flex-start;
+    flex-direction: column;
+    align-items: center;
     gap: 14px;
   }
 
@@ -570,7 +579,9 @@ onUnmounted(() => {
   }
 
   .product-header-text {
+    align-items: center;
     gap: 10px;
+    width: 100%;
   }
 
   .product-name {
@@ -580,10 +591,12 @@ onUnmounted(() => {
   .product-description {
     font-size: 15px;
     line-height: 1.45;
+    text-align: center;
   }
 
   .cta-row {
     flex-wrap: wrap;
+    justify-content: center;
     margin-top: 2px;
   }
 
