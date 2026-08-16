@@ -333,22 +333,32 @@ onUnmounted(() => {
   gap: 18px;
 }
 
+/* Highlighter swipe under the lower half of the glyphs, matching ScreenDesc landing. */
 .platform-badge {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 7px 14px;
-  border-radius: 20px;
-  background: rgba(10, 10, 13, 0.6);
-  border: 1px solid rgba(130, 171, 227, 0.5);
-  backdrop-filter: blur(10px);
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.35);
+  position: relative;
+  z-index: 0;
+  display: inline-block;
   font-family: 'Space Grotesk', sans-serif;
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 600;
   letter-spacing: 0.03em;
-  color: #a8c7ee;
-  width: fit-content;
+  line-height: 1.4;
+  color: #F2F2ED;
+  white-space: nowrap;
+}
+
+.platform-badge::before {
+  content: '';
+  position: absolute;
+  left: -0.1em;
+  right: -0.12em;
+  top: 42%;
+  bottom: 6%;
+  background: #ffd60a;
+  opacity: 0.75;
+  transform: rotate(-1deg);
+  border-radius: 2px 8px 3px 7px;
+  z-index: -1;
 }
 
 .product-header {
@@ -561,14 +571,11 @@ onUnmounted(() => {
   .info-panel {
     top: 0;
     bottom: auto;
-    align-items: center;
-    padding: calc(68px + env(safe-area-inset-top, 0px)) 20px 20px;
+    padding: calc(max(16px, env(safe-area-inset-top, 0px)) + 88px) 20px 20px;
     gap: 12px;
-    text-align: center;
   }
 
   .product-header {
-    flex-direction: column;
     align-items: center;
     gap: 14px;
   }
@@ -579,9 +586,7 @@ onUnmounted(() => {
   }
 
   .product-header-text {
-    align-items: center;
     gap: 10px;
-    width: 100%;
   }
 
   .product-name {
@@ -591,12 +596,10 @@ onUnmounted(() => {
   .product-description {
     font-size: 15px;
     line-height: 1.45;
-    text-align: center;
   }
 
   .cta-row {
     flex-wrap: wrap;
-    justify-content: center;
     margin-top: 2px;
   }
 

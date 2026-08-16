@@ -468,15 +468,15 @@
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
   "node_modules/vuetify/lib/components/VAlert/VAlert.css": [
-    "/assets/VCard-CsyulP1N.js",
+    "/assets/VCard-Ces1NLun.js",
     "/assets/VCard-CReRteXl.css"
   ],
   "node_modules/vuetify/lib/components/VAlert/VAlert.js": [
-    "/assets/VCard-CsyulP1N.js",
+    "/assets/VCard-Ces1NLun.js",
     "/assets/VCard-CReRteXl.css"
   ],
   "node_modules/vuetify/lib/components/VAlert/VAlertTitle.js": [
-    "/assets/VCard-CsyulP1N.js",
+    "/assets/VCard-Ces1NLun.js",
     "/assets/VCard-CReRteXl.css"
   ],
   "node_modules/vuetify/lib/components/VApp/VApp.css": [
@@ -714,31 +714,31 @@
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
   "node_modules/vuetify/lib/components/VCard/VCard.css": [
-    "/assets/VCard-CsyulP1N.js",
+    "/assets/VCard-Ces1NLun.js",
     "/assets/VCard-CReRteXl.css"
   ],
   "node_modules/vuetify/lib/components/VCard/VCard.js": [
-    "/assets/VCard-CsyulP1N.js",
+    "/assets/VCard-Ces1NLun.js",
     "/assets/VCard-CReRteXl.css"
   ],
   "node_modules/vuetify/lib/components/VCard/VCardActions.js": [
-    "/assets/VCard-CsyulP1N.js",
+    "/assets/VCard-Ces1NLun.js",
     "/assets/VCard-CReRteXl.css"
   ],
   "node_modules/vuetify/lib/components/VCard/VCardItem.js": [
-    "/assets/VCard-CsyulP1N.js",
+    "/assets/VCard-Ces1NLun.js",
     "/assets/VCard-CReRteXl.css"
   ],
   "node_modules/vuetify/lib/components/VCard/VCardSubtitle.js": [
-    "/assets/VCard-CsyulP1N.js",
+    "/assets/VCard-Ces1NLun.js",
     "/assets/VCard-CReRteXl.css"
   ],
   "node_modules/vuetify/lib/components/VCard/VCardText.js": [
-    "/assets/VCard-CsyulP1N.js",
+    "/assets/VCard-Ces1NLun.js",
     "/assets/VCard-CReRteXl.css"
   ],
   "node_modules/vuetify/lib/components/VCard/VCardTitle.js": [
-    "/assets/VCard-CsyulP1N.js",
+    "/assets/VCard-Ces1NLun.js",
     "/assets/VCard-CReRteXl.css"
   ],
   "node_modules/vuetify/lib/components/VCheckbox/VCheckboxBtn.js": [
@@ -1012,7 +1012,7 @@
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
   "node_modules/vuetify/lib/components/VGrid/VCol.js": [
-    "/assets/WavyProductView-CoDH7leJ.js",
+    "/assets/WavyProductView-lpeOmXlj.js",
     "/assets/WavyProductView-9_CAWNWi.css",
     "/assets/musician-CmFRDxDZ.png",
     "/assets/podcast-BI-VdIkv.png",
@@ -1025,7 +1025,7 @@
     "/assets/6_font-DuykuxW8.png"
   ],
   "node_modules/vuetify/lib/components/VGrid/VContainer.js": [
-    "/assets/VCard-CsyulP1N.js",
+    "/assets/VCard-Ces1NLun.js",
     "/assets/VCard-CReRteXl.css"
   ],
   "node_modules/vuetify/lib/components/VGrid/VGrid.css": [
@@ -1047,7 +1047,7 @@
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
   "node_modules/vuetify/lib/components/VGrid/VRow.js": [
-    "/assets/WavyProductView-CoDH7leJ.js",
+    "/assets/WavyProductView-lpeOmXlj.js",
     "/assets/WavyProductView-9_CAWNWi.css",
     "/assets/musician-CmFRDxDZ.png",
     "/assets/podcast-BI-VdIkv.png",
@@ -2536,7 +2536,7 @@
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
   "node_modules/vuetify/lib/composables/iconSizes.js": [
-    "/assets/VCard-CsyulP1N.js",
+    "/assets/VCard-Ces1NLun.js",
     "/assets/VCard-CReRteXl.css"
   ],
   "node_modules/vuetify/lib/composables/icons.js": [
@@ -3710,7 +3710,7 @@
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
   "src/assets/images/Wavy/1_select.png": [
-    "/assets/WavyProductView-CoDH7leJ.js",
+    "/assets/WavyProductView-lpeOmXlj.js",
     "/assets/WavyProductView-9_CAWNWi.css",
     "/assets/musician-CmFRDxDZ.png",
     "/assets/podcast-BI-VdIkv.png",
@@ -3723,7 +3723,7 @@
     "/assets/6_font-DuykuxW8.png"
   ],
   "src/assets/images/Wavy/2_layout.png": [
-    "/assets/WavyProductView-CoDH7leJ.js",
+    "/assets/WavyProductView-lpeOmXlj.js",
     "/assets/WavyProductView-9_CAWNWi.css",
     "/assets/musician-CmFRDxDZ.png",
     "/assets/podcast-BI-VdIkv.png",
@@ -3736,7 +3736,7 @@
     "/assets/6_font-DuykuxW8.png"
   ],
   "src/assets/images/Wavy/3_background.png": [
-    "/assets/WavyProductView-CoDH7leJ.js",
+    "/assets/WavyProductView-lpeOmXlj.js",
     "/assets/WavyProductView-9_CAWNWi.css",
     "/assets/musician-CmFRDxDZ.png",
     "/assets/podcast-BI-VdIkv.png",
@@ -3749,7 +3749,7 @@
     "/assets/6_font-DuykuxW8.png"
   ],
   "src/assets/images/Wavy/4_waveform.png": [
-    "/assets/WavyProductView-CoDH7leJ.js",
+    "/assets/WavyProductView-lpeOmXlj.js",
     "/assets/WavyProductView-9_CAWNWi.css",
     "/assets/musician-CmFRDxDZ.png",
     "/assets/podcast-BI-VdIkv.png",
@@ -3762,7 +3762,7 @@
     "/assets/6_font-DuykuxW8.png"
   ],
   "src/assets/images/Wavy/5_text.png": [
-    "/assets/WavyProductView-CoDH7leJ.js",
+    "/assets/WavyProductView-lpeOmXlj.js",
     "/assets/WavyProductView-9_CAWNWi.css",
     "/assets/musician-CmFRDxDZ.png",
     "/assets/podcast-BI-VdIkv.png",
@@ -3775,7 +3775,7 @@
     "/assets/6_font-DuykuxW8.png"
   ],
   "src/assets/images/Wavy/5_text_album.png": [
-    "/assets/WavyProductView-CoDH7leJ.js",
+    "/assets/WavyProductView-lpeOmXlj.js",
     "/assets/WavyProductView-9_CAWNWi.css",
     "/assets/musician-CmFRDxDZ.png",
     "/assets/podcast-BI-VdIkv.png",
@@ -3788,7 +3788,7 @@
     "/assets/6_font-DuykuxW8.png"
   ],
   "src/assets/images/Wavy/6_font.png": [
-    "/assets/WavyProductView-CoDH7leJ.js",
+    "/assets/WavyProductView-lpeOmXlj.js",
     "/assets/WavyProductView-9_CAWNWi.css",
     "/assets/musician-CmFRDxDZ.png",
     "/assets/podcast-BI-VdIkv.png",
@@ -3801,7 +3801,7 @@
     "/assets/6_font-DuykuxW8.png"
   ],
   "src/assets/images/Wavy/musician.png": [
-    "/assets/WavyProductView-CoDH7leJ.js",
+    "/assets/WavyProductView-lpeOmXlj.js",
     "/assets/WavyProductView-9_CAWNWi.css",
     "/assets/musician-CmFRDxDZ.png",
     "/assets/podcast-BI-VdIkv.png",
@@ -3814,7 +3814,7 @@
     "/assets/6_font-DuykuxW8.png"
   ],
   "src/assets/images/Wavy/podcast.png": [
-    "/assets/WavyProductView-CoDH7leJ.js",
+    "/assets/WavyProductView-lpeOmXlj.js",
     "/assets/WavyProductView-9_CAWNWi.css",
     "/assets/musician-CmFRDxDZ.png",
     "/assets/podcast-BI-VdIkv.png",
@@ -4222,7 +4222,7 @@
     "/assets/materialdesignicons-webfont-PXm3-2wK.woff",
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
-  "src/views/HomeView.vue?vue&type=style&index=0&scoped=ff7ac1c8&lang.css": [
+  "src/views/HomeView.vue?vue&type=style&index=0&scoped=2b2f328f&lang.css": [
     "/assets/melissa-audio-logo-BvWsNWe_.svg",
     "/assets/fa-studioset-editor-DXP2Bsli.png",
     "/assets/volcafm2_bg-CyV8zGpl.png",
@@ -4241,10 +4241,10 @@
     "/assets/materialdesignicons-webfont-B7mPwVP_.ttf"
   ],
   "src/views/ProductView.vue": [
-    "/assets/ProductView-BWLSmW2_.js"
+    "/assets/ProductView-C3o56ZXy.js"
   ],
   "src/views/WavyProductView.vue": [
-    "/assets/WavyProductView-CoDH7leJ.js",
+    "/assets/WavyProductView-lpeOmXlj.js",
     "/assets/WavyProductView-9_CAWNWi.css",
     "/assets/musician-CmFRDxDZ.png",
     "/assets/podcast-BI-VdIkv.png",
@@ -4257,7 +4257,7 @@
     "/assets/6_font-DuykuxW8.png"
   ],
   "src/views/WavyProductView.vue?vue&type=style&index=0&scoped=04ae33f7&lang.css": [
-    "/assets/WavyProductView-CoDH7leJ.js",
+    "/assets/WavyProductView-lpeOmXlj.js",
     "/assets/WavyProductView-9_CAWNWi.css",
     "/assets/musician-CmFRDxDZ.png",
     "/assets/podcast-BI-VdIkv.png",
