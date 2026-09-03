@@ -50,7 +50,7 @@ export const products = [
     name: 'volca fm2 tools',
     description: 'Sound and sequence editor for the KORG volca fm2',
     website: 'https://mosynthkey.github.io/volcafm2-tools/',
-    github: 'https://github.com/mosynthkey/volcafm2-dx7',
+    github: 'https://github.com/mosynthkey/volcafm2-tools',
     screenshot: volcaFm2Bg,
     icon: volcaFm2Icon,
     platforms: ['web']
