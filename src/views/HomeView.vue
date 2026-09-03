@@ -88,6 +88,9 @@ import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { useHead } from '@unhead/vue'
 import { products } from '@/data/products.js'
+import ogImage from '@/assets/images/melissa_bg.png'
+
+const SITE_URL = 'https://mosynthkey.github.io'
 
 const { locale, t } = useI18n()
 
@@ -173,12 +176,28 @@ const toTranslationKey = (id) => {
 const getProductName = (id) => t(`products.${toTranslationKey(id)}.name`)
 const getProductDescription = (id) => t(`products.${toTranslationKey(id)}.description`)
 
+const pageTitle = computed(() => t('common.siteName'))
+const pageDescription = computed(() => t('home.description'))
+const pageUrl = `${SITE_URL}/`
+const pageImage = `${SITE_URL}${ogImage}`
+
 useHead({
-  title: t('common.siteName'),
+  title: pageTitle,
   meta: [
-    { name: 'description', content: t('home.description') }
+    { name: 'description', content: pageDescription },
+    { property: 'og:title', content: pageTitle },
+    { property: 'og:description', content: pageDescription },
+    { property: 'og:type', content: 'website' },
+    { property: 'og:url', content: pageUrl },
+    { property: 'og:image', content: pageImage },
+    { property: 'og:site_name', content: 'Melissa Audio' },
+    { name: 'twitter:card', content: 'summary_large_image' },
+    { name: 'twitter:title', content: pageTitle },
+    { name: 'twitter:description', content: pageDescription },
+    { name: 'twitter:image', content: pageImage }
   ],
   link: [
+    { rel: 'canonical', href: pageUrl },
     { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
     {
       rel: 'stylesheet',
