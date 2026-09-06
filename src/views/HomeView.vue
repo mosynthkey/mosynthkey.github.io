@@ -88,7 +88,7 @@ import { ref, computed, onMounted, onUnmounted } from 'vue'
 import { useI18n } from 'vue-i18n'
 import { useHead } from '@unhead/vue'
 import { products } from '@/data/products.js'
-import ogImage from '@/assets/images/melissa_bg.png'
+import ogImage from '@/assets/images/og-card.png'
 
 const SITE_URL = 'https://mosynthkey.github.io'
 
@@ -646,3 +646,4 @@ onUnmounted(() => {
   }
 }
 </style>
+
